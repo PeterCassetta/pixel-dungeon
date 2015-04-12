@@ -48,7 +48,7 @@ public class Mimic extends Mob {
 		spriteClass = MimicSprite.class;
 	}
 	
-	public ArrayList<Item> items;
+	public ArrayList<Item> items = new ArrayList<Item>( (Collection<? extends Item>) bundle.getCollection( ITEMS ) );
 	
 	private static final String LEVEL	= "level";
 	private static final String ITEMS	= "items";
