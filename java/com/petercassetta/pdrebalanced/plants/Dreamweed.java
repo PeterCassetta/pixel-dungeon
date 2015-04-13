@@ -28,7 +28,7 @@ import com.petercassetta.pdrebalanced.sprites.ItemSpriteSheet;
 public class Dreamweed extends Plant {
 
 	private static final String TXT_DESC = 
-		"Upon touching a Dreamweed it secretes a glittering cloud of confusing gas.";
+		"When touched, a Dreamweed secretes a glittering cloud of confusing gas.";
 	
 	{
 		image = 3;

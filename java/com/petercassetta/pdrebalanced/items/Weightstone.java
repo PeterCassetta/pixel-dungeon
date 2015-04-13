@@ -37,9 +37,9 @@ import com.petercassetta.pdrebalanced.windows.WndBag;
 
 public class Weightstone extends Item {
 	
-	private static final String TXT_SELECT_WEAPON	= "Select a weapon to balance";
-	private static final String TXT_FAST			= "you balanced your %s to make it faster";
-	private static final String TXT_ACCURATE		= "you balanced your %s to make it more accurate";
+	private static final String TXT_SELECT_WEAPON = "Select a weapon to balance";
+	private static final String TXT_FAST		  = "you balanced your %s to make it faster";
+	private static final String TXT_ACCURATE	  = "you balanced your %s to make it more accurate";
 	
 	private static final float TIME_TO_APPLY = 2;
 	
@@ -110,8 +110,8 @@ public class Weightstone extends Item {
 	
 	@Override
 	public String info() {
-		return
-			"Using a weightstone, you can balance your melee weapon to increase its speed or accuracy.";
+		return "You can use a weightstone to balance your melee weapon, " +
+            "increasing its speed or accuracy.";
 	}
 	
 	private final WndBag.Listener itemSelector = new WndBag.Listener() {

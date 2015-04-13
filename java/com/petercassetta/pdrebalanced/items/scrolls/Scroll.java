@@ -32,7 +32,7 @@ import com.watabou.utils.Bundle;
 
 public abstract class Scroll extends Item {
 
-	private static final String TXT_BLINDED	= "You can't read a scroll while blinded";
+	private static final String TXT_BLINDED	= "You can't read a scroll while blinded.";
 	
 	public static final String AC_READ	= "READ";
 	
@@ -152,8 +152,8 @@ public abstract class Scroll extends Item {
 	public String info() {
 		return isKnown() ?
 			desc() :
-			"This parchment is covered with indecipherable writing, and bears a title " +
-			"of rune " + rune + ". Who knows what it will do when read aloud?";
+			"This parchment is covered with arcane writings, and is titled with " +
+			"the rune " + rune + ". Who knows what it will do when read aloud?";
 	}
 	
 	@Override

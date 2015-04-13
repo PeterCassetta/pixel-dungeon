@@ -30,7 +30,8 @@ import com.watabou.utils.PathFinder;
 
 public class Icecap extends Plant {
 
-	private static final String TXT_DESC = "Upon touching an Icecap excretes a pollen, which freezes everything in its vicinity.";
+	private static final String TXT_DESC =
+        "When touched, an Icecap excretes a pollen which freezes everything in its vicinity.";
 	
 	{
 		image = 1;

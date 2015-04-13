@@ -30,7 +30,8 @@ import com.petercassetta.pdrebalanced.sprites.ItemSpriteSheet;
 
 public class Firebloom extends Plant {
 
-	private static final String TXT_DESC = "When something touches a Firebloom, it bursts into flames.";
+	private static final String TXT_DESC =
+        "When something touches a Firebloom, it bursts into flames.";
 	
 	{
 		image = 0;

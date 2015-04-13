@@ -32,8 +32,8 @@ import com.watabou.utils.Bundle;
 public class Earthroot extends Plant {
 
 	private static final String TXT_DESC = 
-		"When a creature touches an Earthroot, its roots " +
-		"create a kind of natural armor around it.";
+		"When a creature touches an Earthroot, the roots " +
+		"create an immobilizing natural armor around it.";
 	
 	{
 		image = 5;
