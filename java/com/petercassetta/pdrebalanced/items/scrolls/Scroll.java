@@ -79,7 +79,7 @@ public abstract class Scroll extends Item {
 	
 	@SuppressWarnings("unchecked")
 	public static void initLabels() {
-		handler = new ItemStatusHandler<Scroll>( (Class<? extends Scroll>[])scrolls, runes, images );
+		handler = new ItemStatusHandler<>( (Class<? extends Scroll>[])scrolls, runes, images );
 	}
 	
 	public static void save( Bundle bundle ) {
@@ -88,7 +88,7 @@ public abstract class Scroll extends Item {
 	
 	@SuppressWarnings("unchecked")
 	public static void restore( Bundle bundle ) {
-		handler = new ItemStatusHandler<Scroll>( (Class<? extends Scroll>[])scrolls, runes, images, bundle );
+		handler = new ItemStatusHandler<>( (Class<? extends Scroll>[])scrolls, runes, images, bundle );
 	}
 	
 	public Scroll() {

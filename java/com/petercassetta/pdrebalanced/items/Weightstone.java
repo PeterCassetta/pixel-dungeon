@@ -61,7 +61,7 @@ public class Weightstone extends Item {
 	
 	@Override
 	public void execute( Hero hero, String action ) {
-		if (action == AC_APPLY) {
+		if (action.equals(AC_APPLY)) {
 
 			curUser = hero;
 			GameScene.selectItem( itemSelector, WndBag.Mode.WEAPON, TXT_SELECT_WEAPON );
@@ -191,7 +191,7 @@ public class Weightstone extends Item {
 			
 			resize( WIDTH, (int)btnCancel.bottom() + MARGIN );
 		}
-		
-		protected void onSelect( int index ) {};
+
+		protected void onSelect() {}
 	}
 }
