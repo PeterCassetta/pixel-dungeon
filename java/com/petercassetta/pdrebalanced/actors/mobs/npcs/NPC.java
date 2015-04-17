@@ -22,7 +22,7 @@ import com.petercassetta.pdrebalanced.Dungeon;
 import com.petercassetta.pdrebalanced.actors.mobs.Mob;
 import com.petercassetta.pdrebalanced.items.Heap;
 import com.petercassetta.pdrebalanced.levels.Level;
-import com.watabou.utils.Random;
+import com.petercassetta.utils.Random;
 
 public abstract class NPC extends Mob {
 	

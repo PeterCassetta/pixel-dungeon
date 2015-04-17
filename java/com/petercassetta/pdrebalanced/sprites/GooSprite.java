@@ -18,13 +18,13 @@
  */
 package com.petercassetta.pdrebalanced.sprites;
 
-import com.watabou.noosa.TextureFilm;
-import com.watabou.noosa.particles.Emitter;
-import com.watabou.noosa.particles.PixelParticle;
-import com.watabou.noosa.particles.Emitter.Factory;
+import com.petercassetta.noosa.TextureFilm;
+import com.petercassetta.noosa.particles.Emitter;
+import com.petercassetta.noosa.particles.PixelParticle;
+import com.petercassetta.noosa.particles.Emitter.Factory;
 import com.petercassetta.pdrebalanced.Assets;
-import com.watabou.utils.PointF;
-import com.watabou.utils.Random;
+import com.petercassetta.utils.PointF;
+import com.petercassetta.utils.Random;
 
 public class GooSprite extends MobSprite {
 	

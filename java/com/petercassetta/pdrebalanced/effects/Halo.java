@@ -22,9 +22,9 @@ import android.graphics.Bitmap;
 import android.graphics.Canvas;
 import android.graphics.Paint;
 
-import com.watabou.gltextures.SmartTexture;
-import com.watabou.gltextures.TextureCache;
-import com.watabou.noosa.Image;
+import com.petercassetta.gltextures.SmartTexture;
+import com.petercassetta.gltextures.TextureCache;
+import com.petercassetta.noosa.Image;
 
 public class Halo extends Image {
 	

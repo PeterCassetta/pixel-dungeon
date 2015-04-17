@@ -29,7 +29,7 @@ import com.petercassetta.pdrebalanced.items.Item;
 import com.petercassetta.pdrebalanced.levels.Level;
 import com.petercassetta.pdrebalanced.scenes.GameScene;
 import com.petercassetta.pdrebalanced.sprites.ItemSpriteSheet;
-import com.watabou.utils.Random;
+import com.petercassetta.utils.Random;
 
 public class IncendiaryDart extends MissileWeapon {
 

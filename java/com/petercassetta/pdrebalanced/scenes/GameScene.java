@@ -22,14 +22,14 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 import com.petercassetta.pdrebalanced.PDRebalanced;
-import com.watabou.noosa.Camera;
-import com.watabou.noosa.Game;
-import com.watabou.noosa.Group;
-import com.watabou.noosa.SkinnedBlock;
-import com.watabou.noosa.Visual;
-import com.watabou.noosa.audio.Music;
-import com.watabou.noosa.audio.Sample;
-import com.watabou.noosa.particles.Emitter;
+import com.petercassetta.noosa.Camera;
+import com.petercassetta.noosa.Game;
+import com.petercassetta.noosa.Group;
+import com.petercassetta.noosa.SkinnedBlock;
+import com.petercassetta.noosa.Visual;
+import com.petercassetta.noosa.audio.Music;
+import com.petercassetta.noosa.audio.Sample;
+import com.petercassetta.noosa.particles.Emitter;
 import com.petercassetta.pdrebalanced.Assets;
 import com.petercassetta.pdrebalanced.Badges;
 import com.petercassetta.pdrebalanced.Dungeon;
@@ -74,7 +74,7 @@ import com.petercassetta.pdrebalanced.windows.WndBag.Mode;
 import com.petercassetta.pdrebalanced.windows.WndGame;
 import com.petercassetta.pdrebalanced.windows.WndBag;
 import com.petercassetta.pdrebalanced.windows.WndStory;
-import com.watabou.utils.Random;
+import com.petercassetta.utils.Random;
 
 public class GameScene extends PixelScene {
 	

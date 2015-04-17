@@ -21,7 +21,7 @@ package com.petercassetta.pdrebalanced.actors.mobs;
 import com.petercassetta.pdrebalanced.actors.Char;
 import com.petercassetta.pdrebalanced.actors.mobs.npcs.Ghost;
 import com.petercassetta.pdrebalanced.sprites.RatSprite;
-import com.watabou.utils.Random;
+import com.petercassetta.utils.Random;
 
 public class Rat extends Mob {
 

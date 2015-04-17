@@ -18,8 +18,8 @@
  */
 package com.petercassetta.pdrebalanced.ui;
 
-import com.watabou.noosa.ColorBlock;
-import com.watabou.noosa.ui.Component;
+import com.petercassetta.noosa.ColorBlock;
+import com.petercassetta.noosa.ui.Component;
 
 public class HealthBar extends Component {
 

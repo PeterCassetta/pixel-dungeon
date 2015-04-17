@@ -22,16 +22,16 @@ import javax.microedition.khronos.opengles.GL10;
 
 import android.opengl.GLES20;
 
-import com.watabou.noosa.Game;
-import com.watabou.noosa.Group;
-import com.watabou.noosa.Scene;
-import com.watabou.noosa.particles.PixelParticle;
+import com.petercassetta.noosa.Game;
+import com.petercassetta.noosa.Group;
+import com.petercassetta.noosa.Scene;
+import com.petercassetta.noosa.particles.PixelParticle;
 import com.petercassetta.pdrebalanced.Assets;
 import com.petercassetta.pdrebalanced.Dungeon;
 import com.petercassetta.pdrebalanced.DungeonTilemap;
 import com.petercassetta.pdrebalanced.items.Torch;
-import com.watabou.utils.PointF;
-import com.watabou.utils.Random;
+import com.petercassetta.utils.PointF;
+import com.petercassetta.utils.Random;
 
 public class HallsLevel extends RegularLevel {
 

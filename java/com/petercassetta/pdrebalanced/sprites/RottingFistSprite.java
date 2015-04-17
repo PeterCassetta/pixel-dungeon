@@ -18,8 +18,8 @@
  */
 package com.petercassetta.pdrebalanced.sprites;
 
-import com.watabou.noosa.Camera;
-import com.watabou.noosa.TextureFilm;
+import com.petercassetta.noosa.Camera;
+import com.petercassetta.noosa.TextureFilm;
 import com.petercassetta.pdrebalanced.Assets;
 
 public class RottingFistSprite extends MobSprite {

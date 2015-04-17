@@ -18,14 +18,14 @@
  */
 package com.petercassetta.pdrebalanced.items.potions;
 
-import com.watabou.noosa.audio.Sample;
+import com.petercassetta.noosa.audio.Sample;
 import com.petercassetta.pdrebalanced.Assets;
 import com.petercassetta.pdrebalanced.Dungeon;
 import com.petercassetta.pdrebalanced.actors.blobs.Fire;
 import com.petercassetta.pdrebalanced.actors.blobs.Freezing;
 import com.petercassetta.pdrebalanced.levels.Level;
 import com.petercassetta.pdrebalanced.utils.BArray;
-import com.watabou.utils.PathFinder;
+import com.petercassetta.utils.PathFinder;
 
 public class PotionOfFrost extends Potion {
 	

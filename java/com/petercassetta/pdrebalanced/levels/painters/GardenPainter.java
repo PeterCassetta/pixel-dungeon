@@ -24,7 +24,7 @@ import com.petercassetta.pdrebalanced.levels.Level;
 import com.petercassetta.pdrebalanced.levels.Room;
 import com.petercassetta.pdrebalanced.levels.Terrain;
 import com.petercassetta.pdrebalanced.plants.Sungrass;
-import com.watabou.utils.Random;
+import com.petercassetta.utils.Random;
 
 public class GardenPainter extends Painter {
 

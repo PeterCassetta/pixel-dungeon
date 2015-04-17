@@ -21,7 +21,7 @@ package com.petercassetta.pdrebalanced.actors.mobs;
 import com.petercassetta.pdrebalanced.Badges;
 import com.petercassetta.pdrebalanced.actors.Char;
 import com.petercassetta.pdrebalanced.sprites.AcidicSprite;
-import com.watabou.utils.Random;
+import com.petercassetta.utils.Random;
 
 public class Acidic extends Scorpio {
 

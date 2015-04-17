@@ -32,8 +32,8 @@ import com.petercassetta.pdrebalanced.items.weapon.enchantments.Death;
 import com.petercassetta.pdrebalanced.items.weapon.enchantments.Leech;
 import com.petercassetta.pdrebalanced.items.weapon.melee.MeleeWeapon;
 import com.petercassetta.pdrebalanced.sprites.StatueSprite;
-import com.watabou.utils.Bundle;
-import com.watabou.utils.Random;
+import com.petercassetta.utils.Bundle;
+import com.petercassetta.utils.Random;
 
 public class Statue extends Mob {
 	

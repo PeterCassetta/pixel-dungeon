@@ -22,7 +22,7 @@ import com.petercassetta.pdrebalanced.actors.Char;
 import com.petercassetta.pdrebalanced.actors.mobs.npcs.Ghost;
 import com.petercassetta.pdrebalanced.items.Gold;
 import com.petercassetta.pdrebalanced.sprites.GnollSprite;
-import com.watabou.utils.Random;
+import com.petercassetta.utils.Random;
 
 public class Gnoll extends Mob {
 	

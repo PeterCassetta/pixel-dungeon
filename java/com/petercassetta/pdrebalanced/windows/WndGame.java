@@ -21,7 +21,7 @@ package com.petercassetta.pdrebalanced.windows;
 import java.io.IOException;
 
 import com.petercassetta.pdrebalanced.PDRebalanced;
-import com.watabou.noosa.Game;
+import com.petercassetta.noosa.Game;
 import com.petercassetta.pdrebalanced.Dungeon;
 import com.petercassetta.pdrebalanced.scenes.GameScene;
 import com.petercassetta.pdrebalanced.scenes.InterlevelScene;

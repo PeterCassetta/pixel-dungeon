@@ -18,12 +18,12 @@
  */
 package com.petercassetta.pdrebalanced.effects;
 
-import com.watabou.noosa.Game;
-import com.watabou.noosa.Visual;
+import com.petercassetta.noosa.Game;
+import com.petercassetta.noosa.Visual;
 import com.petercassetta.pdrebalanced.actors.Actor;
 import com.petercassetta.pdrebalanced.actors.Char;
 import com.petercassetta.pdrebalanced.sprites.CharSprite;
-import com.watabou.utils.PointF;
+import com.petercassetta.utils.PointF;
 
 public class Pushing extends Actor {
 

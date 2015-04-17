@@ -18,7 +18,7 @@
  */
 package com.petercassetta.pdrebalanced.items.armor;
 
-import com.watabou.noosa.Camera;
+import com.petercassetta.noosa.Camera;
 import com.petercassetta.pdrebalanced.Dungeon;
 import com.petercassetta.pdrebalanced.actors.Actor;
 import com.petercassetta.pdrebalanced.actors.Char;
@@ -37,7 +37,7 @@ import com.petercassetta.pdrebalanced.scenes.CellSelector;
 import com.petercassetta.pdrebalanced.scenes.GameScene;
 import com.petercassetta.pdrebalanced.sprites.ItemSpriteSheet;
 import com.petercassetta.pdrebalanced.utils.GLog;
-import com.watabou.utils.Callback;
+import com.petercassetta.utils.Callback;
 
 public class WarriorArmor extends ClassArmor {
 	

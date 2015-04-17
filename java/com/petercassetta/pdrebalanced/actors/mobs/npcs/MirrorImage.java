@@ -29,8 +29,8 @@ import com.petercassetta.pdrebalanced.actors.mobs.Mob;
 import com.petercassetta.pdrebalanced.levels.Level;
 import com.petercassetta.pdrebalanced.sprites.CharSprite;
 import com.petercassetta.pdrebalanced.sprites.MirrorSprite;
-import com.watabou.utils.Bundle;
-import com.watabou.utils.Random;
+import com.petercassetta.utils.Bundle;
+import com.petercassetta.utils.Random;
 
 public class MirrorImage extends NPC {
 	

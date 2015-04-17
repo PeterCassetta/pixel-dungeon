@@ -18,12 +18,12 @@
  */
 package com.petercassetta.pdrebalanced.effects;
 
-import com.watabou.noosa.Game;
-import com.watabou.noosa.Image;
+import com.petercassetta.noosa.Game;
+import com.petercassetta.noosa.Image;
 import com.petercassetta.pdrebalanced.scenes.GameScene;
 import com.petercassetta.pdrebalanced.sprites.CharSprite;
 import com.petercassetta.pdrebalanced.ui.Icons;
-import com.watabou.utils.Random;
+import com.petercassetta.utils.Random;
 
 public class EmoIcon extends Image {
 

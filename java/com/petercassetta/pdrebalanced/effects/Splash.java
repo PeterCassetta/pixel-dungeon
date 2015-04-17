@@ -18,12 +18,12 @@
  */
 package com.petercassetta.pdrebalanced.effects;
 
-import com.watabou.noosa.particles.Emitter;
-import com.watabou.noosa.particles.PixelParticle;
+import com.petercassetta.noosa.particles.Emitter;
+import com.petercassetta.noosa.particles.PixelParticle;
 import com.petercassetta.pdrebalanced.DungeonTilemap;
 import com.petercassetta.pdrebalanced.scenes.GameScene;
-import com.watabou.utils.PointF;
-import com.watabou.utils.Random;
+import com.petercassetta.utils.PointF;
+import com.petercassetta.utils.Random;
 
 public class Splash {
 	

@@ -18,7 +18,7 @@
  */
 package com.petercassetta.pdrebalanced.scenes;
 
-import com.watabou.noosa.Game;
+import com.petercassetta.noosa.Game;
 import com.petercassetta.pdrebalanced.windows.WndStory;
 
 public class IntroScene extends PixelScene {

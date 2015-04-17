@@ -18,7 +18,7 @@
  */
 package com.petercassetta.pdrebalanced.sprites;
 
-import com.watabou.noosa.TextureFilm;
+import com.petercassetta.noosa.TextureFilm;
 import com.petercassetta.pdrebalanced.Assets;
 import com.petercassetta.pdrebalanced.effects.Speck;
 import com.petercassetta.pdrebalanced.effects.particles.ShadowParticle;

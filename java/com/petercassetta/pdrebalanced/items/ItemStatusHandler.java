@@ -23,8 +23,8 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.HashSet;
 
-import com.watabou.utils.Bundle;
-import com.watabou.utils.Random;
+import com.petercassetta.utils.Bundle;
+import com.petercassetta.utils.Random;
 
 public class ItemStatusHandler<T extends Item> {
 

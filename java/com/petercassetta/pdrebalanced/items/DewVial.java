@@ -20,7 +20,7 @@ package com.petercassetta.pdrebalanced.items;
 
 import java.util.ArrayList;
 
-import com.watabou.noosa.audio.Sample;
+import com.petercassetta.noosa.audio.Sample;
 import com.petercassetta.pdrebalanced.Assets;
 import com.petercassetta.pdrebalanced.actors.hero.Hero;
 import com.petercassetta.pdrebalanced.effects.Speck;
@@ -30,7 +30,7 @@ import com.petercassetta.pdrebalanced.sprites.ItemSprite.Glowing;
 import com.petercassetta.pdrebalanced.sprites.ItemSpriteSheet;
 import com.petercassetta.pdrebalanced.utils.GLog;
 import com.petercassetta.pdrebalanced.utils.Utils;
-import com.watabou.utils.Bundle;
+import com.petercassetta.utils.Bundle;
 
 public class DewVial extends Item {
 

@@ -29,11 +29,11 @@ import android.annotation.SuppressLint;
 import android.opengl.GLES20;
 import android.util.FloatMath;
 
-import com.watabou.gltextures.Gradient;
-import com.watabou.gltextures.SmartTexture;
-import com.watabou.noosa.Game;
-import com.watabou.noosa.NoosaScript;
-import com.watabou.noosa.Visual;
+import com.petercassetta.gltextures.Gradient;
+import com.petercassetta.gltextures.SmartTexture;
+import com.petercassetta.noosa.Game;
+import com.petercassetta.noosa.NoosaScript;
+import com.petercassetta.noosa.Visual;
 
 public class Flare extends Visual {
 	

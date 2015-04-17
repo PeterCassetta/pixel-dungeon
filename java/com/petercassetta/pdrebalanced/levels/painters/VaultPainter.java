@@ -26,7 +26,7 @@ import com.petercassetta.pdrebalanced.items.keys.IronKey;
 import com.petercassetta.pdrebalanced.levels.Level;
 import com.petercassetta.pdrebalanced.levels.Room;
 import com.petercassetta.pdrebalanced.levels.Terrain;
-import com.watabou.utils.Random;
+import com.petercassetta.utils.Random;
 
 public class VaultPainter extends Painter {
 

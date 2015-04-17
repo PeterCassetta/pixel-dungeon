@@ -26,7 +26,7 @@ import com.petercassetta.pdrebalanced.actors.Actor;
 import com.petercassetta.pdrebalanced.effects.BlobEmitter;
 import com.petercassetta.pdrebalanced.levels.Level;
 import com.petercassetta.pdrebalanced.utils.BArray;
-import com.watabou.utils.Bundle;
+import com.petercassetta.utils.Bundle;
 
 public class Blob extends Actor {
 	

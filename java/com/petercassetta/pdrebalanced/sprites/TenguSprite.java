@@ -18,12 +18,12 @@
  */
 package com.petercassetta.pdrebalanced.sprites;
 
-import com.watabou.noosa.TextureFilm;
+import com.petercassetta.noosa.TextureFilm;
 import com.petercassetta.pdrebalanced.Assets;
 import com.petercassetta.pdrebalanced.items.weapon.missiles.Shuriken;
 import com.petercassetta.pdrebalanced.levels.Level;
 import com.petercassetta.pdrebalanced.scenes.GameScene;
-import com.watabou.utils.Callback;
+import com.petercassetta.utils.Callback;
 
 public class TenguSprite extends MobSprite {
 	

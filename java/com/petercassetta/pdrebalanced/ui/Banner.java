@@ -18,8 +18,8 @@
  */
 package com.petercassetta.pdrebalanced.ui;
 
-import com.watabou.noosa.Game;
-import com.watabou.noosa.Image;
+import com.petercassetta.noosa.Game;
+import com.petercassetta.noosa.Image;
 
 public class Banner extends Image {
 

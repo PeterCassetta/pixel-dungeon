@@ -18,8 +18,8 @@
  */
 package com.petercassetta.pdrebalanced.effects;
 
-import com.watabou.gltextures.SmartTexture;
-import com.watabou.noosa.NinePatch;
+import com.petercassetta.gltextures.SmartTexture;
+import com.petercassetta.noosa.NinePatch;
 import com.petercassetta.pdrebalanced.Assets;
 
 public class ShadowBox extends NinePatch {

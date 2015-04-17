@@ -18,7 +18,7 @@
  */
 package com.petercassetta.pdrebalanced.levels.features;
 
-import com.watabou.noosa.audio.Sample;
+import com.petercassetta.noosa.audio.Sample;
 import com.petercassetta.pdrebalanced.Assets;
 import com.petercassetta.pdrebalanced.Dungeon;
 import com.petercassetta.pdrebalanced.effects.CellEmitter;

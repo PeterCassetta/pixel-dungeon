@@ -20,8 +20,8 @@ package com.petercassetta.pdrebalanced.actors.mobs;
 
 import java.util.HashSet;
 
-import com.watabou.noosa.Camera;
-import com.watabou.noosa.audio.Sample;
+import com.petercassetta.noosa.Camera;
+import com.petercassetta.noosa.audio.Sample;
 import com.petercassetta.pdrebalanced.Assets;
 import com.petercassetta.pdrebalanced.Badges;
 import com.petercassetta.pdrebalanced.Dungeon;
@@ -44,7 +44,7 @@ import com.petercassetta.pdrebalanced.levels.Terrain;
 import com.petercassetta.pdrebalanced.scenes.GameScene;
 import com.petercassetta.pdrebalanced.sprites.DM300Sprite;
 import com.petercassetta.pdrebalanced.utils.GLog;
-import com.watabou.utils.Random;
+import com.petercassetta.utils.Random;
 
 public class DM300 extends Mob {
 	

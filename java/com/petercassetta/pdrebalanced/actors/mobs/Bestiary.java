@@ -19,7 +19,7 @@
 package com.petercassetta.pdrebalanced.actors.mobs;
 
 import com.petercassetta.pdrebalanced.actors.Char;
-import com.watabou.utils.Random;
+import com.petercassetta.utils.Random;
 
 public class Bestiary {
 

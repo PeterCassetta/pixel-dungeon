@@ -20,7 +20,7 @@ package com.petercassetta.pdrebalanced.items.keys;
 
 import com.petercassetta.pdrebalanced.Dungeon;
 import com.petercassetta.pdrebalanced.items.Item;
-import com.watabou.utils.Bundle;
+import com.petercassetta.utils.Bundle;
 
 public class Key extends Item {
 

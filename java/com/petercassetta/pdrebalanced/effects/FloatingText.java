@@ -20,13 +20,13 @@ package com.petercassetta.pdrebalanced.effects;
 
 import java.util.ArrayList;
 
-import com.watabou.noosa.BitmapText;
-import com.watabou.noosa.Camera;
-import com.watabou.noosa.Game;
+import com.petercassetta.noosa.BitmapText;
+import com.petercassetta.noosa.Camera;
+import com.petercassetta.noosa.Game;
 import com.petercassetta.pdrebalanced.DungeonTilemap;
 import com.petercassetta.pdrebalanced.scenes.GameScene;
 import com.petercassetta.pdrebalanced.scenes.PixelScene;
-import com.watabou.utils.SparseArray;
+import com.petercassetta.utils.SparseArray;
 
 public class FloatingText extends BitmapText {
 

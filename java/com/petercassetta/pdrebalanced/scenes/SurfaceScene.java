@@ -20,30 +20,30 @@ package com.petercassetta.pdrebalanced.scenes;
 
 import java.nio.FloatBuffer;
 
-import com.watabou.gltextures.Gradient;
-import com.watabou.gltextures.SmartTexture;
-import com.watabou.glwrap.Matrix;
-import com.watabou.glwrap.Quad;
-import com.watabou.input.Touchscreen.Touch;
-import com.watabou.noosa.Camera;
-import com.watabou.noosa.ColorBlock;
-import com.watabou.noosa.Game;
-import com.watabou.noosa.Group;
-import com.watabou.noosa.Image;
-import com.watabou.noosa.MovieClip;
-import com.watabou.noosa.NoosaScript;
-import com.watabou.noosa.TextureFilm;
-import com.watabou.noosa.TouchArea;
-import com.watabou.noosa.Visual;
-import com.watabou.noosa.audio.Music;
+import com.petercassetta.gltextures.Gradient;
+import com.petercassetta.gltextures.SmartTexture;
+import com.petercassetta.glwrap.Matrix;
+import com.petercassetta.glwrap.Quad;
+import com.petercassetta.input.Touchscreen.Touch;
+import com.petercassetta.noosa.Camera;
+import com.petercassetta.noosa.ColorBlock;
+import com.petercassetta.noosa.Game;
+import com.petercassetta.noosa.Group;
+import com.petercassetta.noosa.Image;
+import com.petercassetta.noosa.MovieClip;
+import com.petercassetta.noosa.NoosaScript;
+import com.petercassetta.noosa.TextureFilm;
+import com.petercassetta.noosa.TouchArea;
+import com.petercassetta.noosa.Visual;
+import com.petercassetta.noosa.audio.Music;
 import com.petercassetta.pdrebalanced.Assets;
 import com.petercassetta.pdrebalanced.Badges;
 import com.petercassetta.pdrebalanced.Dungeon;
 import com.petercassetta.pdrebalanced.actors.hero.HeroClass;
 import com.petercassetta.pdrebalanced.ui.Archs;
 import com.petercassetta.pdrebalanced.ui.RedButton;
-import com.watabou.utils.Point;
-import com.watabou.utils.Random;
+import com.petercassetta.utils.Point;
+import com.petercassetta.utils.Random;
 
 public class SurfaceScene extends PixelScene {
 	

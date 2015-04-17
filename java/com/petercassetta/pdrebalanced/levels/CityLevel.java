@@ -18,16 +18,16 @@
  */
 package com.petercassetta.pdrebalanced.levels;
 
-import com.watabou.noosa.Scene;
-import com.watabou.noosa.particles.Emitter;
-import com.watabou.noosa.particles.PixelParticle;
+import com.petercassetta.noosa.Scene;
+import com.petercassetta.noosa.particles.Emitter;
+import com.petercassetta.noosa.particles.PixelParticle;
 import com.petercassetta.pdrebalanced.Assets;
 import com.petercassetta.pdrebalanced.Dungeon;
 import com.petercassetta.pdrebalanced.DungeonTilemap;
 import com.petercassetta.pdrebalanced.actors.mobs.npcs.Imp;
 import com.petercassetta.pdrebalanced.levels.Room.Type;
-import com.watabou.utils.PointF;
-import com.watabou.utils.Random;
+import com.petercassetta.utils.PointF;
+import com.petercassetta.utils.Random;
 
 public class CityLevel extends RegularLevel {
 

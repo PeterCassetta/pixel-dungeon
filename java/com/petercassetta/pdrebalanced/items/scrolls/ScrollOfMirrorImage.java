@@ -20,7 +20,7 @@ package com.petercassetta.pdrebalanced.items.scrolls;
 
 import java.util.ArrayList;
 
-import com.watabou.noosa.audio.Sample;
+import com.petercassetta.noosa.audio.Sample;
 import com.petercassetta.pdrebalanced.Assets;
 import com.petercassetta.pdrebalanced.actors.Actor;
 import com.petercassetta.pdrebalanced.actors.buffs.Invisibility;
@@ -28,7 +28,7 @@ import com.petercassetta.pdrebalanced.actors.mobs.npcs.MirrorImage;
 import com.petercassetta.pdrebalanced.items.wands.WandOfBlink;
 import com.petercassetta.pdrebalanced.levels.Level;
 import com.petercassetta.pdrebalanced.scenes.GameScene;
-import com.watabou.utils.Random;
+import com.petercassetta.utils.Random;
 
 public class ScrollOfMirrorImage extends Scroll {
 

@@ -20,8 +20,8 @@ package com.petercassetta.pdrebalanced.items;
 
 import java.util.ArrayList;
 
-import com.watabou.noosa.BitmapTextMultiline;
-import com.watabou.noosa.audio.Sample;
+import com.petercassetta.noosa.BitmapTextMultiline;
+import com.petercassetta.noosa.audio.Sample;
 import com.petercassetta.pdrebalanced.Assets;
 import com.petercassetta.pdrebalanced.actors.hero.Hero;
 import com.petercassetta.pdrebalanced.items.weapon.Weapon;

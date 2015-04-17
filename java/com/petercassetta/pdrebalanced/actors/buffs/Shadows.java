@@ -18,12 +18,12 @@
  */
 package com.petercassetta.pdrebalanced.actors.buffs;
 
-import com.watabou.noosa.audio.Sample;
+import com.petercassetta.noosa.audio.Sample;
 import com.petercassetta.pdrebalanced.Assets;
 import com.petercassetta.pdrebalanced.Dungeon;
 import com.petercassetta.pdrebalanced.actors.Char;
 import com.petercassetta.pdrebalanced.ui.BuffIndicator;
-import com.watabou.utils.Bundle;
+import com.petercassetta.utils.Bundle;
 
 public class Shadows extends Invisibility {
 	

@@ -26,7 +26,7 @@ import com.petercassetta.pdrebalanced.items.potions.PotionOfFrost;
 import com.petercassetta.pdrebalanced.levels.Level;
 import com.petercassetta.pdrebalanced.sprites.ItemSpriteSheet;
 import com.petercassetta.pdrebalanced.utils.BArray;
-import com.watabou.utils.PathFinder;
+import com.petercassetta.utils.PathFinder;
 
 public class Icecap extends Plant {
 

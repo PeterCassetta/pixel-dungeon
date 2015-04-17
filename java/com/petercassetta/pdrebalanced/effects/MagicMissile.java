@@ -18,10 +18,10 @@
  */
 package com.petercassetta.pdrebalanced.effects;
 
-import com.watabou.noosa.Game;
-import com.watabou.noosa.Group;
-import com.watabou.noosa.particles.Emitter;
-import com.watabou.noosa.particles.PixelParticle;
+import com.petercassetta.noosa.Game;
+import com.petercassetta.noosa.Group;
+import com.petercassetta.noosa.particles.Emitter;
+import com.petercassetta.noosa.particles.PixelParticle;
 import com.petercassetta.pdrebalanced.DungeonTilemap;
 import com.petercassetta.pdrebalanced.effects.particles.FlameParticle;
 import com.petercassetta.pdrebalanced.effects.particles.LeafParticle;
@@ -29,10 +29,10 @@ import com.petercassetta.pdrebalanced.effects.particles.PoisonParticle;
 import com.petercassetta.pdrebalanced.effects.particles.PurpleParticle;
 import com.petercassetta.pdrebalanced.effects.particles.ShadowParticle;
 import com.petercassetta.pdrebalanced.effects.particles.WoolParticle;
-import com.watabou.utils.Callback;
-import com.watabou.utils.ColorMath;
-import com.watabou.utils.PointF;
-import com.watabou.utils.Random;
+import com.petercassetta.utils.Callback;
+import com.petercassetta.utils.ColorMath;
+import com.petercassetta.utils.PointF;
+import com.petercassetta.utils.Random;
 
 public class MagicMissile extends Emitter {
 

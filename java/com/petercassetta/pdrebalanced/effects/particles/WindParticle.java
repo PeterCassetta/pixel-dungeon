@@ -18,15 +18,15 @@
  */
 package com.petercassetta.pdrebalanced.effects.particles;
 
-import com.watabou.noosa.Game;
-import com.watabou.noosa.Group;
-import com.watabou.noosa.particles.Emitter;
-import com.watabou.noosa.particles.PixelParticle;
-import com.watabou.noosa.particles.Emitter.Factory;
+import com.petercassetta.noosa.Game;
+import com.petercassetta.noosa.Group;
+import com.petercassetta.noosa.particles.Emitter;
+import com.petercassetta.noosa.particles.PixelParticle;
+import com.petercassetta.noosa.particles.Emitter.Factory;
 import com.petercassetta.pdrebalanced.Dungeon;
 import com.petercassetta.pdrebalanced.DungeonTilemap;
-import com.watabou.utils.PointF;
-import com.watabou.utils.Random;
+import com.petercassetta.utils.PointF;
+import com.petercassetta.utils.Random;
 
 public class WindParticle extends PixelParticle {
 

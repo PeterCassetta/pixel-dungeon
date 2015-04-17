@@ -28,7 +28,7 @@ import com.petercassetta.pdrebalanced.actors.mobs.Mob;
 import com.petercassetta.pdrebalanced.items.wands.WandOfBlink;
 import com.petercassetta.pdrebalanced.levels.Level;
 import com.petercassetta.pdrebalanced.scenes.GameScene;
-import com.watabou.utils.Random;
+import com.petercassetta.utils.Random;
 
 public class SummoningTrap {
 

@@ -18,9 +18,9 @@
  */
 package com.petercassetta.pdrebalanced.ui;
 
-import com.watabou.noosa.Game;
-import com.watabou.noosa.NinePatch;
-import com.watabou.noosa.ui.Button;
+import com.petercassetta.noosa.Game;
+import com.petercassetta.noosa.NinePatch;
+import com.petercassetta.noosa.ui.Button;
 import com.petercassetta.pdrebalanced.Chrome;
 
 public class Tag extends Button {

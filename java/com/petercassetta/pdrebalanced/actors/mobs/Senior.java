@@ -23,7 +23,7 @@ import com.petercassetta.pdrebalanced.actors.Char;
 import com.petercassetta.pdrebalanced.actors.buffs.Buff;
 import com.petercassetta.pdrebalanced.actors.buffs.Paralysis;
 import com.petercassetta.pdrebalanced.sprites.SeniorSprite;
-import com.watabou.utils.Random;
+import com.petercassetta.utils.Random;
 
 public class Senior extends Monk {
 

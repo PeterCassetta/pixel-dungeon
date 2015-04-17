@@ -18,11 +18,11 @@
  */
 package com.petercassetta.pdrebalanced.effects;
 
-import com.watabou.noosa.particles.Emitter;
+import com.petercassetta.noosa.particles.Emitter;
 import com.petercassetta.pdrebalanced.Dungeon;
 import com.petercassetta.pdrebalanced.DungeonTilemap;
 import com.petercassetta.pdrebalanced.actors.blobs.Blob;
-import com.watabou.utils.Random;
+import com.petercassetta.utils.Random;
 
 public class BlobEmitter extends Emitter {
 

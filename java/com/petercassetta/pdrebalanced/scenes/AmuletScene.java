@@ -18,17 +18,17 @@
  */
 package com.petercassetta.pdrebalanced.scenes;
 
-import com.watabou.noosa.BitmapTextMultiline;
-import com.watabou.noosa.Camera;
-import com.watabou.noosa.Game;
-import com.watabou.noosa.Image;
+import com.petercassetta.noosa.BitmapTextMultiline;
+import com.petercassetta.noosa.Camera;
+import com.petercassetta.noosa.Game;
+import com.petercassetta.noosa.Image;
 import com.petercassetta.pdrebalanced.Assets;
 import com.petercassetta.pdrebalanced.Dungeon;
 import com.petercassetta.pdrebalanced.ResultDescriptions;
 import com.petercassetta.pdrebalanced.effects.Flare;
 import com.petercassetta.pdrebalanced.effects.Speck;
 import com.petercassetta.pdrebalanced.ui.RedButton;
-import com.watabou.utils.Random;
+import com.petercassetta.utils.Random;
 
 public class AmuletScene extends PixelScene {
 

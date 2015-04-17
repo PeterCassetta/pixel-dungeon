@@ -19,7 +19,7 @@
 package com.petercassetta.pdrebalanced.actors.buffs;
 
 import com.petercassetta.pdrebalanced.ui.BuffIndicator;
-import com.watabou.utils.Bundle;
+import com.petercassetta.utils.Bundle;
 
 public class SnipersMark extends FlavourBuff {
 	

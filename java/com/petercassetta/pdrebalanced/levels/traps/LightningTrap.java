@@ -18,7 +18,7 @@
  */
 package com.petercassetta.pdrebalanced.levels.traps;
 
-import com.watabou.noosa.Camera;
+import com.petercassetta.noosa.Camera;
 import com.petercassetta.pdrebalanced.Dungeon;
 import com.petercassetta.pdrebalanced.ResultDescriptions;
 import com.petercassetta.pdrebalanced.actors.Char;
@@ -29,7 +29,7 @@ import com.petercassetta.pdrebalanced.effects.particles.SparkParticle;
 import com.petercassetta.pdrebalanced.levels.Level;
 import com.petercassetta.pdrebalanced.utils.GLog;
 import com.petercassetta.pdrebalanced.utils.Utils;
-import com.watabou.utils.Random;
+import com.petercassetta.utils.Random;
 
 public class LightningTrap {
 

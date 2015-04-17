@@ -20,7 +20,7 @@ package com.petercassetta.pdrebalanced.actors.mobs;
 
 import java.util.HashSet;
 
-import com.watabou.noosa.tweeners.AlphaTweener;
+import com.petercassetta.noosa.tweeners.AlphaTweener;
 import com.petercassetta.pdrebalanced.Dungeon;
 import com.petercassetta.pdrebalanced.actors.Actor;
 import com.petercassetta.pdrebalanced.actors.Char;
@@ -30,8 +30,8 @@ import com.petercassetta.pdrebalanced.items.weapon.enchantments.Death;
 import com.petercassetta.pdrebalanced.levels.Level;
 import com.petercassetta.pdrebalanced.scenes.GameScene;
 import com.petercassetta.pdrebalanced.sprites.WraithSprite;
-import com.watabou.utils.Bundle;
-import com.watabou.utils.Random;
+import com.petercassetta.utils.Bundle;
+import com.petercassetta.utils.Random;
 
 public class Wraith extends Mob {
 

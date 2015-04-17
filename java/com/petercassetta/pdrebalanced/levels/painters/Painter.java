@@ -22,8 +22,8 @@ import java.util.Arrays;
 
 import com.petercassetta.pdrebalanced.levels.Level;
 import com.petercassetta.pdrebalanced.levels.Room;
-import com.watabou.utils.Point;
-import com.watabou.utils.Rect;
+import com.petercassetta.utils.Point;
+import com.petercassetta.utils.Rect;
 
 public class Painter {
 

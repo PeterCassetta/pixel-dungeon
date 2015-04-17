@@ -22,7 +22,7 @@ import javax.microedition.khronos.opengles.GL10;
 
 import android.opengl.GLES20;
 
-import com.watabou.noosa.TextureFilm;
+import com.petercassetta.noosa.TextureFilm;
 import com.petercassetta.pdrebalanced.Assets;
 import com.petercassetta.pdrebalanced.effects.Speck;
 import com.petercassetta.pdrebalanced.effects.particles.ShaftParticle;

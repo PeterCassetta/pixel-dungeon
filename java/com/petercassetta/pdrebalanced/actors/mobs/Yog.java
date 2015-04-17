@@ -53,7 +53,7 @@ import com.petercassetta.pdrebalanced.sprites.RottingFistSprite;
 import com.petercassetta.pdrebalanced.sprites.YogSprite;
 import com.petercassetta.pdrebalanced.utils.GLog;
 import com.petercassetta.pdrebalanced.utils.Utils;
-import com.watabou.utils.Random;
+import com.petercassetta.utils.Random;
 
 public class Yog extends Mob {
 	

@@ -18,7 +18,7 @@
  */
 package com.petercassetta.pdrebalanced.items.wands;
 
-import com.watabou.noosa.audio.Sample;
+import com.petercassetta.noosa.audio.Sample;
 import com.petercassetta.pdrebalanced.Assets;
 import com.petercassetta.pdrebalanced.Dungeon;
 import com.petercassetta.pdrebalanced.actors.Actor;
@@ -28,7 +28,7 @@ import com.petercassetta.pdrebalanced.actors.buffs.Buff;
 import com.petercassetta.pdrebalanced.actors.buffs.Vertigo;
 import com.petercassetta.pdrebalanced.effects.MagicMissile;
 import com.petercassetta.pdrebalanced.utils.GLog;
-import com.watabou.utils.Callback;
+import com.petercassetta.utils.Callback;
 
 public class WandOfAmok extends Wand {
 

@@ -20,8 +20,8 @@ package com.petercassetta.pdrebalanced.actors;
 
 import java.util.HashSet;
 
-import com.watabou.noosa.Camera;
-import com.watabou.noosa.audio.Sample;
+import com.petercassetta.noosa.Camera;
+import com.petercassetta.noosa.audio.Sample;
 import com.petercassetta.pdrebalanced.Assets;
 import com.petercassetta.pdrebalanced.Dungeon;
 import com.petercassetta.pdrebalanced.ResultDescriptions;
@@ -56,10 +56,10 @@ import com.petercassetta.pdrebalanced.levels.features.Door;
 import com.petercassetta.pdrebalanced.sprites.CharSprite;
 import com.petercassetta.pdrebalanced.utils.GLog;
 import com.petercassetta.pdrebalanced.utils.Utils;
-import com.watabou.utils.Bundleable;
-import com.watabou.utils.Bundle;
-import com.watabou.utils.GameMath;
-import com.watabou.utils.Random;
+import com.petercassetta.utils.Bundleable;
+import com.petercassetta.utils.Bundle;
+import com.petercassetta.utils.GameMath;
+import com.petercassetta.utils.Random;
 
 public abstract class Char extends Actor {
 

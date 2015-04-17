@@ -18,9 +18,9 @@
  */
 package com.petercassetta.pdrebalanced.effects;
 
-import com.watabou.noosa.Game;
-import com.watabou.noosa.Gizmo;
-import com.watabou.noosa.audio.Sample;
+import com.petercassetta.noosa.Game;
+import com.petercassetta.noosa.Gizmo;
+import com.petercassetta.noosa.audio.Sample;
 import com.petercassetta.pdrebalanced.Assets;
 import com.petercassetta.pdrebalanced.sprites.CharSprite;
 

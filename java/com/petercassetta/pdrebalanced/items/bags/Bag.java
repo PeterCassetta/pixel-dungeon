@@ -27,8 +27,8 @@ import com.petercassetta.pdrebalanced.actors.hero.Hero;
 import com.petercassetta.pdrebalanced.items.Item;
 import com.petercassetta.pdrebalanced.scenes.GameScene;
 import com.petercassetta.pdrebalanced.windows.WndBag;
-import com.watabou.utils.Bundleable;
-import com.watabou.utils.Bundle;
+import com.petercassetta.utils.Bundleable;
+import com.petercassetta.utils.Bundle;
 
 public class Bag extends Item implements Iterable<Item> {
 

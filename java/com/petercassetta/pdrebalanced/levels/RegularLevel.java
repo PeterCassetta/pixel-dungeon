@@ -34,10 +34,10 @@ import com.petercassetta.pdrebalanced.items.Item;
 import com.petercassetta.pdrebalanced.items.scrolls.ScrollOfUpgrade;
 import com.petercassetta.pdrebalanced.levels.Room.Type;
 import com.petercassetta.pdrebalanced.levels.painters.*;
-import com.watabou.utils.Bundle;
-import com.watabou.utils.Graph;
-import com.watabou.utils.Random;
-import com.watabou.utils.Rect;
+import com.petercassetta.utils.Bundle;
+import com.petercassetta.utils.Graph;
+import com.petercassetta.utils.Random;
+import com.petercassetta.utils.Rect;
 
 public abstract class RegularLevel extends Level {
 

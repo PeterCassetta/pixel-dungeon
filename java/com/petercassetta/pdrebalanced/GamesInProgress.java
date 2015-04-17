@@ -21,7 +21,7 @@ package com.petercassetta.pdrebalanced;
 import java.util.HashMap;
 
 import com.petercassetta.pdrebalanced.actors.hero.HeroClass;
-import com.watabou.utils.Bundle;
+import com.petercassetta.utils.Bundle;
 
 public class GamesInProgress {
 

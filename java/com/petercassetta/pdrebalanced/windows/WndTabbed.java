@@ -20,11 +20,11 @@ package com.petercassetta.pdrebalanced.windows;
 
 import java.util.ArrayList;
 
-import com.watabou.noosa.BitmapText;
-import com.watabou.noosa.Game;
-import com.watabou.noosa.NinePatch;
-import com.watabou.noosa.audio.Sample;
-import com.watabou.noosa.ui.Button;
+import com.petercassetta.noosa.BitmapText;
+import com.petercassetta.noosa.Game;
+import com.petercassetta.noosa.NinePatch;
+import com.petercassetta.noosa.audio.Sample;
+import com.petercassetta.noosa.ui.Button;
 import com.petercassetta.pdrebalanced.Assets;
 import com.petercassetta.pdrebalanced.Chrome;
 import com.petercassetta.pdrebalanced.scenes.PixelScene;

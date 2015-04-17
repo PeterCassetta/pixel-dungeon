@@ -20,7 +20,7 @@ package com.petercassetta.pdrebalanced.levels;
 
 import java.util.List;
 
-import com.watabou.noosa.Scene;
+import com.petercassetta.noosa.Scene;
 import com.petercassetta.pdrebalanced.Assets;
 import com.petercassetta.pdrebalanced.Bones;
 import com.petercassetta.pdrebalanced.actors.Actor;
@@ -28,8 +28,8 @@ import com.petercassetta.pdrebalanced.actors.mobs.npcs.Imp;
 import com.petercassetta.pdrebalanced.items.Heap;
 import com.petercassetta.pdrebalanced.items.Item;
 import com.petercassetta.pdrebalanced.levels.Room.Type;
-import com.watabou.utils.Graph;
-import com.watabou.utils.Random;
+import com.petercassetta.utils.Graph;
+import com.petercassetta.utils.Random;
 
 public class LastShopLevel extends RegularLevel {
 	

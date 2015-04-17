@@ -18,12 +18,12 @@
  */
 package com.petercassetta.pdrebalanced.sprites;
 
-import com.watabou.noosa.tweeners.AlphaTweener;
-import com.watabou.noosa.tweeners.ScaleTweener;
+import com.petercassetta.noosa.tweeners.AlphaTweener;
+import com.petercassetta.noosa.tweeners.ScaleTweener;
 import com.petercassetta.pdrebalanced.DungeonTilemap;
 import com.petercassetta.pdrebalanced.actors.mobs.Mob;
-import com.watabou.utils.PointF;
-import com.watabou.utils.Random;
+import com.petercassetta.utils.PointF;
+import com.petercassetta.utils.Random;
 
 public class MobSprite extends CharSprite {
 

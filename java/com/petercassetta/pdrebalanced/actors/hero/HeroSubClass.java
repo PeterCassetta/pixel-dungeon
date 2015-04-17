@@ -18,7 +18,7 @@
  */
 package com.petercassetta.pdrebalanced.actors.hero;
 
-import com.watabou.utils.Bundle;
+import com.petercassetta.utils.Bundle;
 
 public enum HeroSubClass {
 

@@ -27,7 +27,7 @@ import com.petercassetta.pdrebalanced.actors.mobs.Eye;
 import com.petercassetta.pdrebalanced.actors.mobs.Warlock;
 import com.petercassetta.pdrebalanced.actors.mobs.Yog;
 import com.petercassetta.pdrebalanced.levels.traps.LightningTrap;
-import com.watabou.utils.Random;
+import com.petercassetta.utils.Random;
 
 public class RingOfElements extends Ring {
 

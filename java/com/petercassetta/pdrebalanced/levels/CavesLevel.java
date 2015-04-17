@@ -18,19 +18,19 @@
  */
 package com.petercassetta.pdrebalanced.levels;
 
-import com.watabou.noosa.Game;
-import com.watabou.noosa.Group;
-import com.watabou.noosa.Scene;
-import com.watabou.noosa.particles.PixelParticle;
+import com.petercassetta.noosa.Game;
+import com.petercassetta.noosa.Group;
+import com.petercassetta.noosa.Scene;
+import com.petercassetta.noosa.particles.PixelParticle;
 import com.petercassetta.pdrebalanced.Assets;
 import com.petercassetta.pdrebalanced.Dungeon;
 import com.petercassetta.pdrebalanced.DungeonTilemap;
 import com.petercassetta.pdrebalanced.actors.mobs.npcs.Blacksmith;
 import com.petercassetta.pdrebalanced.levels.Room.Type;
 import com.petercassetta.pdrebalanced.levels.painters.Painter;
-import com.watabou.utils.PointF;
-import com.watabou.utils.Random;
-import com.watabou.utils.Rect;
+import com.petercassetta.utils.PointF;
+import com.petercassetta.utils.Random;
+import com.petercassetta.utils.Rect;
 
 public class CavesLevel extends RegularLevel {
 

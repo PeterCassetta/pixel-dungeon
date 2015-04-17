@@ -27,7 +27,7 @@ import com.petercassetta.pdrebalanced.items.wands.WandOfBlink;
 import com.petercassetta.pdrebalanced.levels.Level;
 import com.petercassetta.pdrebalanced.sprites.ItemSprite;
 import com.petercassetta.pdrebalanced.sprites.ItemSprite.Glowing;
-import com.watabou.utils.Random;
+import com.petercassetta.utils.Random;
 
 public class Displacement extends Glyph {
 

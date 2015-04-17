@@ -25,7 +25,7 @@ import com.petercassetta.pdrebalanced.actors.buffs.Buff;
 import com.petercassetta.pdrebalanced.actors.hero.Hero;
 import com.petercassetta.pdrebalanced.items.Item;
 import com.petercassetta.pdrebalanced.sprites.BanditSprite;
-import com.watabou.utils.Random;
+import com.petercassetta.utils.Random;
 
 public class Bandit extends Thief {
 	

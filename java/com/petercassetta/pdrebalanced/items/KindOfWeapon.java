@@ -24,7 +24,7 @@ import com.petercassetta.pdrebalanced.actors.Char;
 import com.petercassetta.pdrebalanced.actors.hero.Hero;
 import com.petercassetta.pdrebalanced.ui.QuickSlot;
 import com.petercassetta.pdrebalanced.utils.GLog;
-import com.watabou.utils.Random;
+import com.petercassetta.utils.Random;
 
 public class KindOfWeapon extends EquipableItem {
 

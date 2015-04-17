@@ -18,7 +18,7 @@
  */
 package com.petercassetta.pdrebalanced;
 
-import com.watabou.noosa.NinePatch;
+import com.petercassetta.noosa.NinePatch;
 
 public class Chrome {
 

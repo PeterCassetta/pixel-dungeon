@@ -18,11 +18,11 @@
  */
 package com.petercassetta.pdrebalanced.ui;
 
-import com.watabou.noosa.Game;
-import com.watabou.noosa.Gizmo;
-import com.watabou.noosa.Image;
-import com.watabou.noosa.ui.Button;
-import com.watabou.noosa.ui.Component;
+import com.petercassetta.noosa.Game;
+import com.petercassetta.noosa.Gizmo;
+import com.petercassetta.noosa.Image;
+import com.petercassetta.noosa.ui.Button;
+import com.petercassetta.noosa.ui.Component;
 import com.petercassetta.pdrebalanced.Assets;
 import com.petercassetta.pdrebalanced.Dungeon;
 import com.petercassetta.pdrebalanced.DungeonTilemap;

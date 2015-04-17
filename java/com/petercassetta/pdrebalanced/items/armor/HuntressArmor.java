@@ -30,7 +30,7 @@ import com.petercassetta.pdrebalanced.levels.Level;
 import com.petercassetta.pdrebalanced.sprites.ItemSpriteSheet;
 import com.petercassetta.pdrebalanced.sprites.MissileSprite;
 import com.petercassetta.pdrebalanced.utils.GLog;
-import com.watabou.utils.Callback;
+import com.petercassetta.utils.Callback;
 
 public class HuntressArmor extends ClassArmor {
 	

@@ -32,7 +32,7 @@ import com.petercassetta.pdrebalanced.actors.buffs.Roots;
 import com.petercassetta.pdrebalanced.items.food.MysteryMeat;
 import com.petercassetta.pdrebalanced.levels.Level;
 import com.petercassetta.pdrebalanced.sprites.PiranhaSprite;
-import com.watabou.utils.Random;
+import com.petercassetta.utils.Random;
 
 public class Piranha extends Mob {
 	

@@ -21,7 +21,7 @@ package com.petercassetta.pdrebalanced.levels;
 import java.util.Arrays;
 
 import com.petercassetta.pdrebalanced.Assets;
-import com.watabou.utils.Random;
+import com.petercassetta.utils.Random;
 
 public class DeadEndLevel extends Level {
 

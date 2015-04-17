@@ -20,7 +20,7 @@ package com.petercassetta.pdrebalanced.actors.buffs;
 
 import com.petercassetta.pdrebalanced.actors.Char;
 import com.petercassetta.pdrebalanced.ui.BuffIndicator;
-import com.watabou.utils.Bundle;
+import com.petercassetta.utils.Bundle;
 
 public class Terror extends FlavourBuff {
 

@@ -21,7 +21,7 @@ package com.petercassetta.pdrebalanced.items;
 import java.io.IOException;
 import java.util.ArrayList;
 
-import com.watabou.noosa.Game;
+import com.petercassetta.noosa.Game;
 import com.petercassetta.pdrebalanced.Badges;
 import com.petercassetta.pdrebalanced.Dungeon;
 import com.petercassetta.pdrebalanced.Statistics;

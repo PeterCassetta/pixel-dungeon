@@ -18,9 +18,9 @@
  */
 package com.petercassetta.pdrebalanced.windows;
 
-import com.watabou.noosa.BitmapText;
-import com.watabou.noosa.BitmapTextMultiline;
-import com.watabou.noosa.Image;
+import com.petercassetta.noosa.BitmapText;
+import com.petercassetta.noosa.BitmapTextMultiline;
+import com.petercassetta.noosa.Image;
 import com.petercassetta.pdrebalanced.Badges;
 import com.petercassetta.pdrebalanced.effects.BadgeBanner;
 import com.petercassetta.pdrebalanced.scenes.PixelScene;

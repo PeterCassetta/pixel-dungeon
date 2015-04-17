@@ -18,15 +18,15 @@
  */
 package com.petercassetta.pdrebalanced.windows;
 
-import com.watabou.input.Touchscreen.Touch;
-import com.watabou.noosa.BitmapTextMultiline;
-import com.watabou.noosa.Game;
-import com.watabou.noosa.TouchArea;
+import com.petercassetta.input.Touchscreen.Touch;
+import com.petercassetta.noosa.BitmapTextMultiline;
+import com.petercassetta.noosa.Game;
+import com.petercassetta.noosa.TouchArea;
 import com.petercassetta.pdrebalanced.Chrome;
 import com.petercassetta.pdrebalanced.Dungeon;
 import com.petercassetta.pdrebalanced.scenes.PixelScene;
 import com.petercassetta.pdrebalanced.ui.Window;
-import com.watabou.utils.SparseArray;
+import com.petercassetta.utils.SparseArray;
 
 public class WndStory extends Window {
 

@@ -18,17 +18,17 @@
  */
 package com.petercassetta.pdrebalanced.ui;
 
-import com.watabou.gltextures.SmartTexture;
-import com.watabou.gltextures.TextureCache;
-import com.watabou.noosa.Image;
-import com.watabou.noosa.TextureFilm;
-import com.watabou.noosa.tweeners.AlphaTweener;
-import com.watabou.noosa.ui.Component;
+import com.petercassetta.gltextures.SmartTexture;
+import com.petercassetta.gltextures.TextureCache;
+import com.petercassetta.noosa.Image;
+import com.petercassetta.noosa.TextureFilm;
+import com.petercassetta.noosa.tweeners.AlphaTweener;
+import com.petercassetta.noosa.ui.Component;
 import com.petercassetta.pdrebalanced.Assets;
 import com.petercassetta.pdrebalanced.Dungeon;
 import com.petercassetta.pdrebalanced.actors.Char;
 import com.petercassetta.pdrebalanced.actors.buffs.Buff;
-import com.watabou.utils.SparseArray;
+import com.petercassetta.utils.SparseArray;
 
 public class BuffIndicator extends Component {
 

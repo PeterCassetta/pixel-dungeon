@@ -27,7 +27,7 @@ import com.petercassetta.pdrebalanced.items.rings.RingOfElements.Resistance;
 import com.petercassetta.pdrebalanced.ui.BuffIndicator;
 import com.petercassetta.pdrebalanced.utils.GLog;
 import com.petercassetta.pdrebalanced.utils.Utils;
-import com.watabou.utils.Bundle;
+import com.petercassetta.utils.Bundle;
 
 public class Poison extends Buff implements Hero.Doom {
 	

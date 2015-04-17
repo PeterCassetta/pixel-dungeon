@@ -19,7 +19,7 @@
 package com.petercassetta.pdrebalanced.windows;
 
 import com.petercassetta.pdrebalanced.items.quest.RatSkull;
-import com.watabou.noosa.BitmapTextMultiline;
+import com.petercassetta.noosa.BitmapTextMultiline;
 import com.petercassetta.pdrebalanced.Dungeon;
 import com.petercassetta.pdrebalanced.actors.hero.Hero;
 import com.petercassetta.pdrebalanced.actors.mobs.npcs.Ghost;

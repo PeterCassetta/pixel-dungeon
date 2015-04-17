@@ -18,8 +18,8 @@
  */
 package com.petercassetta.pdrebalanced.sprites;
 
-import com.watabou.noosa.TextureFilm;
-import com.watabou.noosa.particles.PixelParticle;
+import com.petercassetta.noosa.TextureFilm;
+import com.petercassetta.noosa.particles.PixelParticle;
 import com.petercassetta.pdrebalanced.Assets;
 
 public class ShopkeeperSprite extends MobSprite {

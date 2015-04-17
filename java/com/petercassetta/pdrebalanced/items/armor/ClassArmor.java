@@ -22,7 +22,7 @@ import java.util.ArrayList;
 
 import com.petercassetta.pdrebalanced.actors.hero.Hero;
 import com.petercassetta.pdrebalanced.utils.GLog;
-import com.watabou.utils.Bundle;
+import com.petercassetta.utils.Bundle;
 
 abstract public class ClassArmor extends Armor {
 	

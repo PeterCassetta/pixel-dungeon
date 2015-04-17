@@ -18,7 +18,7 @@
  */
 package com.petercassetta.pdrebalanced.items.potions;
 
-import com.watabou.noosa.audio.Sample;
+import com.petercassetta.noosa.audio.Sample;
 import com.petercassetta.pdrebalanced.Assets;
 import com.petercassetta.pdrebalanced.Dungeon;
 import com.petercassetta.pdrebalanced.actors.blobs.Blob;
@@ -32,7 +32,7 @@ import com.petercassetta.pdrebalanced.effects.Speck;
 import com.petercassetta.pdrebalanced.levels.Level;
 import com.petercassetta.pdrebalanced.utils.BArray;
 import com.petercassetta.pdrebalanced.utils.GLog;
-import com.watabou.utils.PathFinder;
+import com.petercassetta.utils.PathFinder;
 
 public class PotionOfPurity extends Potion {
 

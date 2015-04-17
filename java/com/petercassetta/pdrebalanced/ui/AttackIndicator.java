@@ -26,7 +26,7 @@ import com.petercassetta.pdrebalanced.actors.mobs.Mob;
 import com.petercassetta.pdrebalanced.levels.Level;
 import com.petercassetta.pdrebalanced.scenes.PixelScene;
 import com.petercassetta.pdrebalanced.sprites.CharSprite;
-import com.watabou.utils.Random;
+import com.petercassetta.utils.Random;
 
 public class AttackIndicator extends Tag {
 	

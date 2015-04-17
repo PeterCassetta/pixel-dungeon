@@ -18,7 +18,7 @@
  */
 package com.petercassetta.pdrebalanced.windows;
 
-import com.watabou.noosa.BitmapTextMultiline;
+import com.petercassetta.noosa.BitmapTextMultiline;
 import com.petercassetta.pdrebalanced.items.Heap;
 import com.petercassetta.pdrebalanced.items.Heap.Type;
 import com.petercassetta.pdrebalanced.items.Item;

@@ -25,8 +25,8 @@ import com.petercassetta.pdrebalanced.items.scrolls.Scroll;
 import com.petercassetta.pdrebalanced.levels.Level;
 import com.petercassetta.pdrebalanced.levels.Room;
 import com.petercassetta.pdrebalanced.levels.Terrain;
-import com.watabou.utils.Point;
-import com.watabou.utils.Random;
+import com.petercassetta.utils.Point;
+import com.petercassetta.utils.Random;
 
 public class LibraryPainter extends Painter {
 

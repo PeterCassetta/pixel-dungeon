@@ -27,7 +27,7 @@ import com.petercassetta.pdrebalanced.items.potions.PotionOfInvisibility;
 import com.petercassetta.pdrebalanced.levels.Level;
 import com.petercassetta.pdrebalanced.levels.Room;
 import com.petercassetta.pdrebalanced.levels.Terrain;
-import com.watabou.utils.Random;
+import com.petercassetta.utils.Random;
 
 public class PoolPainter extends Painter {
 

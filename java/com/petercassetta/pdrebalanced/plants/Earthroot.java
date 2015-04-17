@@ -18,7 +18,7 @@
  */
 package com.petercassetta.pdrebalanced.plants;
 
-import com.watabou.noosa.Camera;
+import com.petercassetta.noosa.Camera;
 import com.petercassetta.pdrebalanced.Dungeon;
 import com.petercassetta.pdrebalanced.actors.Char;
 import com.petercassetta.pdrebalanced.actors.buffs.Buff;
@@ -27,7 +27,7 @@ import com.petercassetta.pdrebalanced.effects.particles.EarthParticle;
 import com.petercassetta.pdrebalanced.items.potions.PotionOfParalyticGas;
 import com.petercassetta.pdrebalanced.sprites.ItemSpriteSheet;
 import com.petercassetta.pdrebalanced.ui.BuffIndicator;
-import com.watabou.utils.Bundle;
+import com.petercassetta.utils.Bundle;
 
 public class Earthroot extends Plant {
 

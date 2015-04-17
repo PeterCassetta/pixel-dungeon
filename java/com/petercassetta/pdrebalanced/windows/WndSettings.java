@@ -19,8 +19,8 @@
 package com.petercassetta.pdrebalanced.windows;
 
 import com.petercassetta.pdrebalanced.PDRebalanced;
-import com.watabou.noosa.Camera;
-import com.watabou.noosa.audio.Sample;
+import com.petercassetta.noosa.Camera;
+import com.petercassetta.noosa.audio.Sample;
 import com.petercassetta.pdrebalanced.Assets;
 import com.petercassetta.pdrebalanced.scenes.PixelScene;
 import com.petercassetta.pdrebalanced.ui.CheckBox;

@@ -24,8 +24,8 @@ import java.util.Collection;
 import java.util.HashMap;
 import java.util.HashSet;
 
-import com.watabou.noosa.Scene;
-import com.watabou.noosa.audio.Sample;
+import com.petercassetta.noosa.Scene;
+import com.petercassetta.noosa.audio.Sample;
 import com.petercassetta.pdrebalanced.Assets;
 import com.petercassetta.pdrebalanced.Challenges;
 import com.petercassetta.pdrebalanced.Dungeon;
@@ -68,10 +68,10 @@ import com.petercassetta.pdrebalanced.mechanics.ShadowCaster;
 import com.petercassetta.pdrebalanced.plants.Plant;
 import com.petercassetta.pdrebalanced.scenes.GameScene;
 import com.petercassetta.pdrebalanced.utils.GLog;
-import com.watabou.utils.Bundleable;
-import com.watabou.utils.Bundle;
-import com.watabou.utils.Random;
-import com.watabou.utils.SparseArray;
+import com.petercassetta.utils.Bundleable;
+import com.petercassetta.utils.Bundle;
+import com.petercassetta.utils.Random;
+import com.petercassetta.utils.SparseArray;
 
 public abstract class Level implements Bundleable {
 	

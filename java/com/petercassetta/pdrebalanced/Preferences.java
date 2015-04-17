@@ -18,7 +18,7 @@
  */
 package com.petercassetta.pdrebalanced;
 
-import com.watabou.noosa.Game;
+import com.petercassetta.noosa.Game;
 
 import android.content.SharedPreferences;
 

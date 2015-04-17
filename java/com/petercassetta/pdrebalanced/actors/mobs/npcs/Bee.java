@@ -27,8 +27,8 @@ import com.petercassetta.pdrebalanced.actors.mobs.Mob;
 import com.petercassetta.pdrebalanced.levels.Level;
 import com.petercassetta.pdrebalanced.sprites.BeeSprite;
 import com.petercassetta.pdrebalanced.utils.Utils;
-import com.watabou.utils.Bundle;
-import com.watabou.utils.Random;
+import com.petercassetta.utils.Bundle;
+import com.petercassetta.utils.Random;
 
 public class Bee extends NPC {
 	

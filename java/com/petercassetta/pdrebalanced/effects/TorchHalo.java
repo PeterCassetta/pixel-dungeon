@@ -22,7 +22,7 @@ import javax.microedition.khronos.opengles.GL10;
 
 import android.opengl.GLES20;
 
-import com.watabou.noosa.Game;
+import com.petercassetta.noosa.Game;
 import com.petercassetta.pdrebalanced.sprites.CharSprite;
 
 public class TorchHalo extends Halo {

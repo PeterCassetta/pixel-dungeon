@@ -18,9 +18,9 @@
  */
 package com.petercassetta.pdrebalanced.windows;
 
-import com.watabou.noosa.BitmapText;
-import com.watabou.noosa.BitmapTextMultiline;
-import com.watabou.noosa.Group;
+import com.petercassetta.noosa.BitmapText;
+import com.petercassetta.noosa.BitmapTextMultiline;
+import com.petercassetta.noosa.Group;
 import com.petercassetta.pdrebalanced.Badges;
 import com.petercassetta.pdrebalanced.actors.hero.HeroClass;
 import com.petercassetta.pdrebalanced.actors.hero.HeroSubClass;

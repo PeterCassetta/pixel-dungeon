@@ -18,9 +18,9 @@
  */
 package com.petercassetta.pdrebalanced.ui;
 
-import com.watabou.noosa.BitmapText;
-import com.watabou.noosa.Camera;
-import com.watabou.noosa.Image;
+import com.petercassetta.noosa.BitmapText;
+import com.petercassetta.noosa.Camera;
+import com.petercassetta.noosa.Image;
 import com.petercassetta.pdrebalanced.Dungeon;
 import com.petercassetta.pdrebalanced.actors.mobs.Mob;
 import com.petercassetta.pdrebalanced.scenes.PixelScene;

@@ -18,9 +18,9 @@
  */
 package com.petercassetta.pdrebalanced.effects;
 
-import com.watabou.gltextures.TextureCache;
-import com.watabou.noosa.Game;
-import com.watabou.noosa.Image;
+import com.petercassetta.gltextures.TextureCache;
+import com.petercassetta.noosa.Game;
+import com.petercassetta.noosa.Image;
 import com.petercassetta.pdrebalanced.DungeonTilemap;
 
 public class CheckedCell extends Image {

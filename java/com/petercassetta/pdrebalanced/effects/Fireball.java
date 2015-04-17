@@ -23,16 +23,16 @@ import javax.microedition.khronos.opengles.GL10;
 import android.graphics.RectF;
 import android.opengl.GLES20;
 
-import com.watabou.glwrap.Texture;
-import com.watabou.noosa.Game;
-import com.watabou.noosa.Group;
-import com.watabou.noosa.Image;
-import com.watabou.noosa.particles.Emitter;
-import com.watabou.noosa.particles.PixelParticle;
-import com.watabou.noosa.ui.Component;
+import com.petercassetta.glwrap.Texture;
+import com.petercassetta.noosa.Game;
+import com.petercassetta.noosa.Group;
+import com.petercassetta.noosa.Image;
+import com.petercassetta.noosa.particles.Emitter;
+import com.petercassetta.noosa.particles.PixelParticle;
+import com.petercassetta.noosa.ui.Component;
 import com.petercassetta.pdrebalanced.Assets;
-import com.watabou.utils.ColorMath;
-import com.watabou.utils.Random;
+import com.petercassetta.utils.ColorMath;
+import com.petercassetta.utils.Random;
 
 public class Fireball extends Component {
 

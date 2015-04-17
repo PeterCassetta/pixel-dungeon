@@ -18,9 +18,9 @@
  */
 package com.petercassetta.pdrebalanced.sprites;
 
-import com.watabou.noosa.TextureFilm;
-import com.watabou.noosa.audio.Sample;
-import com.watabou.noosa.particles.Emitter;
+import com.petercassetta.noosa.TextureFilm;
+import com.petercassetta.noosa.audio.Sample;
+import com.petercassetta.noosa.particles.Emitter;
 import com.petercassetta.pdrebalanced.Assets;
 import com.petercassetta.pdrebalanced.Dungeon;
 import com.petercassetta.pdrebalanced.actors.Char;

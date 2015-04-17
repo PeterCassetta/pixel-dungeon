@@ -20,16 +20,16 @@ package com.petercassetta.pdrebalanced.sprites;
 
 import android.graphics.RectF;
 
-import com.watabou.gltextures.SmartTexture;
-import com.watabou.gltextures.TextureCache;
-import com.watabou.noosa.Camera;
-import com.watabou.noosa.Image;
-import com.watabou.noosa.TextureFilm;
+import com.petercassetta.gltextures.SmartTexture;
+import com.petercassetta.gltextures.TextureCache;
+import com.petercassetta.noosa.Camera;
+import com.petercassetta.noosa.Image;
+import com.petercassetta.noosa.TextureFilm;
 import com.petercassetta.pdrebalanced.Assets;
 import com.petercassetta.pdrebalanced.Dungeon;
 import com.petercassetta.pdrebalanced.actors.hero.Hero;
 import com.petercassetta.pdrebalanced.actors.hero.HeroClass;
-import com.watabou.utils.Callback;
+import com.petercassetta.utils.Callback;
 
 public class HeroSprite extends CharSprite {
 	

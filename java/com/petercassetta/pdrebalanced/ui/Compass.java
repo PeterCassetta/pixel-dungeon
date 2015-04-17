@@ -18,11 +18,11 @@
  */
 package com.petercassetta.pdrebalanced.ui;
 
-import com.watabou.noosa.Camera;
-import com.watabou.noosa.Image;
+import com.petercassetta.noosa.Camera;
+import com.petercassetta.noosa.Image;
 import com.petercassetta.pdrebalanced.Dungeon;
 import com.petercassetta.pdrebalanced.DungeonTilemap;
-import com.watabou.utils.PointF;
+import com.petercassetta.utils.PointF;
 
 public class Compass extends Image {
 

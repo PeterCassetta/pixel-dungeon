@@ -30,7 +30,7 @@ import com.petercassetta.pdrebalanced.items.scrolls.ScrollOfPsionicBlast;
 import com.petercassetta.pdrebalanced.items.wands.WandOfFirebolt;
 import com.petercassetta.pdrebalanced.items.weapon.enchantments.Fire;
 import com.petercassetta.pdrebalanced.sprites.ElementalSprite;
-import com.watabou.utils.Random;
+import com.petercassetta.utils.Random;
 
 public class Elemental extends Mob {
 

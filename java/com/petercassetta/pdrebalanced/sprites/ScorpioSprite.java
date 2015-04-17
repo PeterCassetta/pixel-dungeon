@@ -18,11 +18,11 @@
  */
 package com.petercassetta.pdrebalanced.sprites;
 
-import com.watabou.noosa.TextureFilm;
+import com.petercassetta.noosa.TextureFilm;
 import com.petercassetta.pdrebalanced.Assets;
 import com.petercassetta.pdrebalanced.items.weapon.missiles.Dart;
 import com.petercassetta.pdrebalanced.levels.Level;
-import com.watabou.utils.Callback;
+import com.petercassetta.utils.Callback;
 
 public class ScorpioSprite extends MobSprite {
 	

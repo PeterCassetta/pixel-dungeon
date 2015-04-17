@@ -18,8 +18,8 @@
  */
 package com.petercassetta.pdrebalanced.ui;
 
-import com.watabou.noosa.Image;
-import com.watabou.noosa.ui.Button;
+import com.petercassetta.noosa.Image;
+import com.petercassetta.noosa.ui.Button;
 import com.petercassetta.pdrebalanced.Dungeon;
 import com.petercassetta.pdrebalanced.DungeonTilemap;
 import com.petercassetta.pdrebalanced.actors.Actor;
@@ -29,7 +29,7 @@ import com.petercassetta.pdrebalanced.items.Item;
 import com.petercassetta.pdrebalanced.scenes.GameScene;
 import com.petercassetta.pdrebalanced.scenes.PixelScene;
 import com.petercassetta.pdrebalanced.windows.WndBag;
-import com.watabou.utils.Bundle;
+import com.petercassetta.utils.Bundle;
 
 public class QuickSlot extends Button implements WndBag.Listener {
 

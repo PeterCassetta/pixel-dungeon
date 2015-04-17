@@ -20,7 +20,7 @@ package com.petercassetta.pdrebalanced.actors.mobs.npcs;
 
 import java.util.ArrayList;
 
-import com.watabou.noosa.audio.Sample;
+import com.petercassetta.noosa.audio.Sample;
 import com.petercassetta.pdrebalanced.Assets;
 import com.petercassetta.pdrebalanced.Dungeon;
 import com.petercassetta.pdrebalanced.Journal;
@@ -60,8 +60,8 @@ import com.petercassetta.pdrebalanced.utils.GLog;
 import com.petercassetta.pdrebalanced.utils.Utils;
 import com.petercassetta.pdrebalanced.windows.WndQuest;
 import com.petercassetta.pdrebalanced.windows.WndWandmaker;
-import com.watabou.utils.Bundle;
-import com.watabou.utils.Random;
+import com.petercassetta.utils.Bundle;
+import com.petercassetta.utils.Random;
 
 public class Wandmaker extends NPC {
 

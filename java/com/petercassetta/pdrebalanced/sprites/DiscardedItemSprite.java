@@ -18,7 +18,7 @@
  */
 package com.petercassetta.pdrebalanced.sprites;
 
-import com.watabou.noosa.Game;
+import com.petercassetta.noosa.Game;
 
 public class DiscardedItemSprite extends ItemSprite {
 	

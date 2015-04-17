@@ -22,12 +22,12 @@ import android.content.Intent;
 import android.net.Uri;
 
 import com.petercassetta.pdrebalanced.PDRebalanced;
-import com.watabou.input.Touchscreen.Touch;
-import com.watabou.noosa.BitmapTextMultiline;
-import com.watabou.noosa.Camera;
-import com.watabou.noosa.Game;
-import com.watabou.noosa.Image;
-import com.watabou.noosa.TouchArea;
+import com.petercassetta.input.Touchscreen.Touch;
+import com.petercassetta.noosa.BitmapTextMultiline;
+import com.petercassetta.noosa.Camera;
+import com.petercassetta.noosa.Game;
+import com.petercassetta.noosa.Image;
+import com.petercassetta.noosa.TouchArea;
 import com.petercassetta.pdrebalanced.effects.Flare;
 import com.petercassetta.pdrebalanced.ui.Archs;
 import com.petercassetta.pdrebalanced.ui.ExitButton;
@@ -47,7 +47,7 @@ public class AboutScene extends PixelScene {
         " used under the GPLv3. \n\n" +
         "Official website:";
 
-    private static final String LNK = "pixeldungeon.watabou.ru";
+    private static final String LNK = "pixeldungeon.petercassetta.ru";
 
 	@Override
 	public void create() {

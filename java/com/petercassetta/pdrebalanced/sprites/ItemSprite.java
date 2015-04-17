@@ -20,11 +20,11 @@ package com.petercassetta.pdrebalanced.sprites;
 
 import android.graphics.Bitmap;
 
-import com.watabou.gltextures.TextureCache;
-import com.watabou.noosa.Game;
-import com.watabou.noosa.MovieClip;
-import com.watabou.noosa.TextureFilm;
-import com.watabou.noosa.audio.Sample;
+import com.petercassetta.gltextures.TextureCache;
+import com.petercassetta.noosa.Game;
+import com.petercassetta.noosa.MovieClip;
+import com.petercassetta.noosa.TextureFilm;
+import com.petercassetta.noosa.audio.Sample;
 import com.petercassetta.pdrebalanced.Assets;
 import com.petercassetta.pdrebalanced.Dungeon;
 import com.petercassetta.pdrebalanced.DungeonTilemap;
@@ -36,8 +36,8 @@ import com.petercassetta.pdrebalanced.items.Item;
 import com.petercassetta.pdrebalanced.levels.Level;
 import com.petercassetta.pdrebalanced.levels.Terrain;
 import com.petercassetta.pdrebalanced.scenes.GameScene;
-import com.watabou.utils.PointF;
-import com.watabou.utils.Random;
+import com.petercassetta.utils.PointF;
+import com.petercassetta.utils.Random;
 
 public class ItemSprite extends MovieClip {
 

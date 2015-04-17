@@ -29,8 +29,8 @@ import com.petercassetta.pdrebalanced.actors.blobs.Blob;
 import com.petercassetta.pdrebalanced.actors.buffs.Buff;
 import com.petercassetta.pdrebalanced.actors.mobs.Mob;
 import com.petercassetta.pdrebalanced.levels.Level;
-import com.watabou.utils.Bundleable;
-import com.watabou.utils.Bundle;
+import com.petercassetta.utils.Bundleable;
+import com.petercassetta.utils.Bundle;
 
 public abstract class Actor implements Bundleable {
 	

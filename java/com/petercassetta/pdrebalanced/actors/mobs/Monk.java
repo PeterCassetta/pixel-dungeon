@@ -31,7 +31,7 @@ import com.petercassetta.pdrebalanced.items.food.Food;
 import com.petercassetta.pdrebalanced.items.weapon.melee.Knuckles;
 import com.petercassetta.pdrebalanced.sprites.MonkSprite;
 import com.petercassetta.pdrebalanced.utils.GLog;
-import com.watabou.utils.Random;
+import com.petercassetta.utils.Random;
 
 public class Monk extends Mob {
 

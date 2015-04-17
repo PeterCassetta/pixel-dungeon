@@ -18,7 +18,7 @@
  */
 package com.petercassetta.pdrebalanced.windows;
 
-import com.watabou.noosa.BitmapTextMultiline;
+import com.petercassetta.noosa.BitmapTextMultiline;
 import com.petercassetta.pdrebalanced.plants.Plant;
 import com.petercassetta.pdrebalanced.scenes.PixelScene;
 import com.petercassetta.pdrebalanced.sprites.PlantSprite;

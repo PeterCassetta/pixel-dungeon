@@ -22,10 +22,10 @@ import javax.microedition.khronos.opengles.GL10;
 
 import android.opengl.GLES20;
 
-import com.watabou.noosa.Group;
-import com.watabou.noosa.particles.PixelParticle;
-import com.watabou.utils.PointF;
-import com.watabou.utils.Random;
+import com.petercassetta.noosa.Group;
+import com.petercassetta.noosa.particles.PixelParticle;
+import com.petercassetta.utils.PointF;
+import com.petercassetta.utils.Random;
 
 public class Identification extends Group {
 

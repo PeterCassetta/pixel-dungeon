@@ -18,9 +18,9 @@
  */
 package com.petercassetta.pdrebalanced.ui;
 
-import com.watabou.gltextures.TextureCache;
-import com.watabou.noosa.Image;
-import com.watabou.noosa.ui.Component;
+import com.petercassetta.gltextures.TextureCache;
+import com.petercassetta.noosa.Image;
+import com.petercassetta.noosa.ui.Component;
 import com.petercassetta.pdrebalanced.actors.Char;
 import com.petercassetta.pdrebalanced.sprites.CharSprite;
 

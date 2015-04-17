@@ -18,8 +18,8 @@
  */
 package com.petercassetta.pdrebalanced.windows;
 
-import com.watabou.noosa.BitmapTextMultiline;
-import com.watabou.noosa.Game;
+import com.petercassetta.noosa.BitmapTextMultiline;
+import com.petercassetta.noosa.Game;
 import com.petercassetta.pdrebalanced.Rankings;
 import com.petercassetta.pdrebalanced.Statistics;
 import com.petercassetta.pdrebalanced.actors.hero.Hero;

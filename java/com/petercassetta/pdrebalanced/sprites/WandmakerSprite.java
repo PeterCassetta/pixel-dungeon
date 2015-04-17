@@ -22,13 +22,13 @@ import javax.microedition.khronos.opengles.GL10;
 
 import android.opengl.GLES20;
 
-import com.watabou.noosa.Game;
-import com.watabou.noosa.TextureFilm;
+import com.petercassetta.noosa.Game;
+import com.petercassetta.noosa.TextureFilm;
 import com.petercassetta.pdrebalanced.Assets;
 import com.petercassetta.pdrebalanced.actors.Char;
 import com.petercassetta.pdrebalanced.effects.Halo;
 import com.petercassetta.pdrebalanced.effects.particles.ElmoParticle;
-import com.watabou.utils.PointF;
+import com.petercassetta.utils.PointF;
 
 public class WandmakerSprite extends MobSprite {
 	

@@ -18,7 +18,7 @@
  */
 package com.petercassetta.pdrebalanced.utils;
 
-import com.watabou.utils.Signal;
+import com.petercassetta.utils.Signal;
 
 import android.util.Log;
 

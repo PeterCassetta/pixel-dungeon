@@ -18,10 +18,10 @@
  */
 package com.petercassetta.pdrebalanced.effects.particles;
 
-import com.watabou.noosa.particles.Emitter;
-import com.watabou.noosa.particles.PixelParticle;
-import com.watabou.noosa.particles.Emitter.Factory;
-import com.watabou.utils.Random;
+import com.petercassetta.noosa.particles.Emitter;
+import com.petercassetta.noosa.particles.PixelParticle;
+import com.petercassetta.noosa.particles.Emitter.Factory;
+import com.petercassetta.utils.Random;
 
 public class WebParticle extends PixelParticle {
 	

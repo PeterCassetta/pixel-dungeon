@@ -18,11 +18,11 @@
  */
 package com.petercassetta.pdrebalanced.ui;
 
-import com.watabou.noosa.BitmapText;
-import com.watabou.noosa.Image;
-import com.watabou.noosa.NinePatch;
-import com.watabou.noosa.audio.Sample;
-import com.watabou.noosa.ui.Button;
+import com.petercassetta.noosa.BitmapText;
+import com.petercassetta.noosa.Image;
+import com.petercassetta.noosa.NinePatch;
+import com.petercassetta.noosa.audio.Sample;
+import com.petercassetta.noosa.ui.Button;
 import com.petercassetta.pdrebalanced.Assets;
 import com.petercassetta.pdrebalanced.Chrome;
 import com.petercassetta.pdrebalanced.scenes.PixelScene;

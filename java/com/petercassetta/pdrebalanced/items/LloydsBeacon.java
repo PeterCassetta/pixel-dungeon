@@ -20,8 +20,8 @@ package com.petercassetta.pdrebalanced.items;
 
 import java.util.ArrayList;
 
-import com.watabou.noosa.Game;
-import com.watabou.noosa.audio.Sample;
+import com.petercassetta.noosa.Game;
+import com.petercassetta.noosa.audio.Sample;
 import com.petercassetta.pdrebalanced.Assets;
 import com.petercassetta.pdrebalanced.Dungeon;
 import com.petercassetta.pdrebalanced.actors.Actor;
@@ -33,7 +33,7 @@ import com.petercassetta.pdrebalanced.sprites.ItemSprite.Glowing;
 import com.petercassetta.pdrebalanced.sprites.ItemSpriteSheet;
 import com.petercassetta.pdrebalanced.utils.GLog;
 import com.petercassetta.pdrebalanced.utils.Utils;
-import com.watabou.utils.Bundle;
+import com.petercassetta.utils.Bundle;
 
 public class LloydsBeacon extends Item {
 

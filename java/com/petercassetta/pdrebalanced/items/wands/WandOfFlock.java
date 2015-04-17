@@ -18,7 +18,7 @@
  */
 package com.petercassetta.pdrebalanced.items.wands;
 
-import com.watabou.noosa.audio.Sample;
+import com.petercassetta.noosa.audio.Sample;
 import com.petercassetta.pdrebalanced.Assets;
 import com.petercassetta.pdrebalanced.Dungeon;
 import com.petercassetta.pdrebalanced.actors.Actor;
@@ -32,9 +32,9 @@ import com.petercassetta.pdrebalanced.mechanics.Ballistica;
 import com.petercassetta.pdrebalanced.scenes.GameScene;
 import com.petercassetta.pdrebalanced.sprites.SheepSprite;
 import com.petercassetta.pdrebalanced.utils.BArray;
-import com.watabou.utils.Callback;
-import com.watabou.utils.PathFinder;
-import com.watabou.utils.Random;
+import com.petercassetta.utils.Callback;
+import com.petercassetta.utils.PathFinder;
+import com.petercassetta.utils.Random;
 
 public class WandOfFlock extends Wand {
 

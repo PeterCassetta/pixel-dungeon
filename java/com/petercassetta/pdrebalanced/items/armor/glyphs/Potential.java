@@ -18,7 +18,7 @@
  */
 package com.petercassetta.pdrebalanced.items.armor.glyphs;
 
-import com.watabou.noosa.Camera;
+import com.petercassetta.noosa.Camera;
 import com.petercassetta.pdrebalanced.Dungeon;
 import com.petercassetta.pdrebalanced.actors.Char;
 import com.petercassetta.pdrebalanced.effects.Lightning;
@@ -28,7 +28,7 @@ import com.petercassetta.pdrebalanced.levels.Level;
 import com.petercassetta.pdrebalanced.levels.traps.LightningTrap;
 import com.petercassetta.pdrebalanced.sprites.ItemSprite;
 import com.petercassetta.pdrebalanced.sprites.ItemSprite.Glowing;
-import com.watabou.utils.Random;
+import com.petercassetta.utils.Random;
 
 public class Potential extends Glyph {
 

@@ -18,7 +18,7 @@
  */
 package com.petercassetta.pdrebalanced.sprites;
 
-import com.watabou.noosa.particles.Emitter;
+import com.petercassetta.noosa.particles.Emitter;
 import com.petercassetta.pdrebalanced.actors.Char;
 import com.petercassetta.pdrebalanced.effects.Speck;
 

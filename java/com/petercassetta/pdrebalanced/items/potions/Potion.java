@@ -21,7 +21,7 @@
 import java.util.ArrayList;
 import java.util.HashSet;
 
-import com.watabou.noosa.audio.Sample;
+import com.petercassetta.noosa.audio.Sample;
 import com.petercassetta.pdrebalanced.Assets;
 import com.petercassetta.pdrebalanced.Badges;
 import com.petercassetta.pdrebalanced.Dungeon;
@@ -36,7 +36,7 @@ import com.petercassetta.pdrebalanced.sprites.ItemSprite;
 import com.petercassetta.pdrebalanced.sprites.ItemSpriteSheet;
 import com.petercassetta.pdrebalanced.utils.GLog;
 import com.petercassetta.pdrebalanced.windows.WndOptions;
-import com.watabou.utils.Bundle;
+import com.petercassetta.utils.Bundle;
 
 public class Potion extends Item {
 	

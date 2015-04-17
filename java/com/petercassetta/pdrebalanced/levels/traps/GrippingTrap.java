@@ -24,7 +24,7 @@ import com.petercassetta.pdrebalanced.actors.buffs.Bleeding;
 import com.petercassetta.pdrebalanced.actors.buffs.Buff;
 import com.petercassetta.pdrebalanced.actors.buffs.Cripple;
 import com.petercassetta.pdrebalanced.effects.Wound;
-import com.watabou.utils.Random;
+import com.petercassetta.utils.Random;
 
 public class GrippingTrap {
 	

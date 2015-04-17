@@ -26,7 +26,7 @@ import com.petercassetta.pdrebalanced.actors.buffs.Frost;
 import com.petercassetta.pdrebalanced.effects.CellEmitter;
 import com.petercassetta.pdrebalanced.effects.particles.SnowParticle;
 import com.petercassetta.pdrebalanced.items.Heap;
-import com.watabou.utils.Random;
+import com.petercassetta.utils.Random;
 
 public class Freezing {
 	

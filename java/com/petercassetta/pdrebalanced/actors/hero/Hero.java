@@ -23,10 +23,10 @@ import java.util.Collections;
 import java.util.HashSet;
 
 import com.petercassetta.pdrebalanced.actors.mobs.npcs.Ghost;
-import com.watabou.noosa.Camera;
-import com.watabou.noosa.Game;
-import com.watabou.noosa.audio.Music;
-import com.watabou.noosa.audio.Sample;
+import com.petercassetta.noosa.Camera;
+import com.petercassetta.noosa.Game;
+import com.petercassetta.noosa.audio.Music;
+import com.petercassetta.noosa.audio.Sample;
 import com.petercassetta.pdrebalanced.Assets;
 import com.petercassetta.pdrebalanced.Badges;
 import com.petercassetta.pdrebalanced.Bones;
@@ -109,8 +109,8 @@ import com.petercassetta.pdrebalanced.utils.GLog;
 import com.petercassetta.pdrebalanced.windows.WndMessage;
 import com.petercassetta.pdrebalanced.windows.WndResurrect;
 import com.petercassetta.pdrebalanced.windows.WndTradeItem;
-import com.watabou.utils.Bundle;
-import com.watabou.utils.Random;
+import com.petercassetta.utils.Bundle;
+import com.petercassetta.utils.Random;
 
 public class Hero extends Char {
 	

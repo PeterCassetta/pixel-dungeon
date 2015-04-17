@@ -23,19 +23,19 @@ import javax.microedition.khronos.opengles.GL10;
 import android.opengl.GLES20;
 
 import com.petercassetta.pdrebalanced.PDRebalanced;
-import com.watabou.input.Touchscreen;
-import com.watabou.noosa.BitmapText;
-import com.watabou.noosa.BitmapText.Font;
-import com.watabou.noosa.BitmapTextMultiline;
-import com.watabou.noosa.Camera;
-import com.watabou.noosa.ColorBlock;
-import com.watabou.noosa.Game;
-import com.watabou.noosa.Scene;
-import com.watabou.noosa.Visual;
+import com.petercassetta.input.Touchscreen;
+import com.petercassetta.noosa.BitmapText;
+import com.petercassetta.noosa.BitmapText.Font;
+import com.petercassetta.noosa.BitmapTextMultiline;
+import com.petercassetta.noosa.Camera;
+import com.petercassetta.noosa.ColorBlock;
+import com.petercassetta.noosa.Game;
+import com.petercassetta.noosa.Scene;
+import com.petercassetta.noosa.Visual;
 import com.petercassetta.pdrebalanced.Assets;
 import com.petercassetta.pdrebalanced.Badges;
 import com.petercassetta.pdrebalanced.effects.BadgeBanner;
-import com.watabou.utils.BitmapCache;
+import com.petercassetta.utils.BitmapCache;
 
 public class PixelScene extends Scene {
 	

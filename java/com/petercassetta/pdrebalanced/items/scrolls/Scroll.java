@@ -28,7 +28,7 @@ import com.petercassetta.pdrebalanced.items.Item;
 import com.petercassetta.pdrebalanced.items.ItemStatusHandler;
 import com.petercassetta.pdrebalanced.sprites.ItemSpriteSheet;
 import com.petercassetta.pdrebalanced.utils.GLog;
-import com.watabou.utils.Bundle;
+import com.petercassetta.utils.Bundle;
 
 public abstract class Scroll extends Item {
 

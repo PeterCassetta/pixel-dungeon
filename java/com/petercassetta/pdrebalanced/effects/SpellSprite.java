@@ -20,9 +20,9 @@ package com.petercassetta.pdrebalanced.effects;
 
 import java.util.HashMap;
 
-import com.watabou.noosa.Game;
-import com.watabou.noosa.Image;
-import com.watabou.noosa.TextureFilm;
+import com.petercassetta.noosa.Game;
+import com.petercassetta.noosa.Image;
+import com.petercassetta.noosa.TextureFilm;
 import com.petercassetta.pdrebalanced.Assets;
 import com.petercassetta.pdrebalanced.actors.Char;
 import com.petercassetta.pdrebalanced.scenes.GameScene;

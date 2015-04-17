@@ -18,9 +18,9 @@
  */
 package com.petercassetta.pdrebalanced.ui;
 
-import com.watabou.noosa.Image;
-import com.watabou.noosa.audio.Sample;
-import com.watabou.noosa.ui.Button;
+import com.petercassetta.noosa.Image;
+import com.petercassetta.noosa.audio.Sample;
+import com.petercassetta.noosa.ui.Button;
 import com.petercassetta.pdrebalanced.Assets;
 import com.petercassetta.pdrebalanced.windows.WndSettings;
 

@@ -18,12 +18,12 @@
  */
 package com.petercassetta.pdrebalanced.sprites;
 
-import com.watabou.noosa.TextureFilm;
-import com.watabou.noosa.audio.Sample;
+import com.petercassetta.noosa.TextureFilm;
+import com.petercassetta.noosa.audio.Sample;
 import com.petercassetta.pdrebalanced.Assets;
 import com.petercassetta.pdrebalanced.actors.mobs.Warlock;
 import com.petercassetta.pdrebalanced.effects.MagicMissile;
-import com.watabou.utils.Callback;
+import com.petercassetta.utils.Callback;
 
 public class WarlockSprite extends MobSprite {
 	

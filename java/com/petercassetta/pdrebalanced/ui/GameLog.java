@@ -20,13 +20,13 @@ package com.petercassetta.pdrebalanced.ui;
 
 import java.util.regex.Pattern;
 
-import com.watabou.noosa.BitmapTextMultiline;
-import com.watabou.noosa.ui.Component;
+import com.petercassetta.noosa.BitmapTextMultiline;
+import com.petercassetta.noosa.ui.Component;
 import com.petercassetta.pdrebalanced.scenes.PixelScene;
 import com.petercassetta.pdrebalanced.sprites.CharSprite;
 import com.petercassetta.pdrebalanced.utils.GLog;
 import com.petercassetta.pdrebalanced.utils.Utils;
-import com.watabou.utils.Signal;
+import com.petercassetta.utils.Signal;
 
 public class GameLog extends Component implements Signal.Listener<String> {
 

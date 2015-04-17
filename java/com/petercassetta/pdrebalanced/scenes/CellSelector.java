@@ -19,11 +19,11 @@
 package com.petercassetta.pdrebalanced.scenes;
 
 import com.petercassetta.pdrebalanced.PDRebalanced;
-import com.watabou.input.Touchscreen.Touch;
-import com.watabou.noosa.TouchArea;
+import com.petercassetta.input.Touchscreen.Touch;
+import com.petercassetta.noosa.TouchArea;
 import com.petercassetta.pdrebalanced.DungeonTilemap;
-import com.watabou.utils.GameMath;
-import com.watabou.utils.PointF;
+import com.petercassetta.utils.GameMath;
+import com.petercassetta.utils.PointF;
 
 public class CellSelector extends TouchArea {
 

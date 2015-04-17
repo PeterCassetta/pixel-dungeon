@@ -20,7 +20,7 @@ package com.petercassetta.pdrebalanced.actors.mobs;
 
 import java.util.HashSet;
 
-import com.watabou.noosa.audio.Sample;
+import com.petercassetta.noosa.audio.Sample;
 import com.petercassetta.pdrebalanced.Assets;
 import com.petercassetta.pdrebalanced.actors.Actor;
 import com.petercassetta.pdrebalanced.actors.Char;
@@ -35,7 +35,7 @@ import com.petercassetta.pdrebalanced.items.weapon.enchantments.Leech;
 import com.petercassetta.pdrebalanced.levels.Level;
 import com.petercassetta.pdrebalanced.mechanics.Ballistica;
 import com.petercassetta.pdrebalanced.sprites.SuccubusSprite;
-import com.watabou.utils.Random;
+import com.petercassetta.utils.Random;
 
 public class Succubus extends Mob {
 	

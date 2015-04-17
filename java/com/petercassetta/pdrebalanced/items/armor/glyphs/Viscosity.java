@@ -31,8 +31,8 @@ import com.petercassetta.pdrebalanced.sprites.ItemSprite.Glowing;
 import com.petercassetta.pdrebalanced.ui.BuffIndicator;
 import com.petercassetta.pdrebalanced.utils.GLog;
 import com.petercassetta.pdrebalanced.utils.Utils;
-import com.watabou.utils.Bundle;
-import com.watabou.utils.Random;
+import com.petercassetta.utils.Bundle;
+import com.petercassetta.utils.Random;
 
 public class Viscosity extends Glyph {
 

@@ -23,7 +23,7 @@ import com.petercassetta.pdrebalanced.actors.buffs.Buff;
 import com.petercassetta.pdrebalanced.items.weapon.Weapon;
 import com.petercassetta.pdrebalanced.sprites.ItemSprite;
 import com.petercassetta.pdrebalanced.sprites.ItemSprite.Glowing;
-import com.watabou.utils.Random;
+import com.petercassetta.utils.Random;
 
 public class Poison extends Weapon.Enchantment {
 

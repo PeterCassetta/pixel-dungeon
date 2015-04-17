@@ -30,7 +30,7 @@ import com.petercassetta.pdrebalanced.actors.buffs.Terror;
 import com.petercassetta.pdrebalanced.items.food.MysteryMeat;
 import com.petercassetta.pdrebalanced.scenes.GameScene;
 import com.petercassetta.pdrebalanced.sprites.SpinnerSprite;
-import com.watabou.utils.Random;
+import com.petercassetta.utils.Random;
 
 public class Spinner extends Mob {
 	

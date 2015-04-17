@@ -20,11 +20,11 @@ package com.petercassetta.pdrebalanced.levels;
 
 import java.util.Arrays;
 
-import com.watabou.noosa.Scene;
+import com.petercassetta.noosa.Scene;
 import com.petercassetta.pdrebalanced.Assets;
 import com.petercassetta.pdrebalanced.items.Amulet;
 import com.petercassetta.pdrebalanced.levels.painters.Painter;
-import com.watabou.utils.Random;
+import com.petercassetta.utils.Random;
 
 public class LastLevel extends Level {
 

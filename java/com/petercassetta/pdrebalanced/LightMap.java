@@ -2,12 +2,12 @@ package com.petercassetta.pdrebalanced;
 
 import android.graphics.Bitmap;
 
-import com.watabou.gltextures.SmartTexture;
-import com.watabou.gltextures.TextureCache;
-import com.watabou.glwrap.Texture;
-import com.watabou.noosa.Image;
+import com.petercassetta.gltextures.SmartTexture;
+import com.petercassetta.gltextures.TextureCache;
+import com.petercassetta.glwrap.Texture;
+import com.petercassetta.noosa.Image;
 import com.petercassetta.pdrebalanced.levels.Level;
-import com.watabou.utils.Random;
+import com.petercassetta.utils.Random;
 
 public class LightMap extends Image {
 	

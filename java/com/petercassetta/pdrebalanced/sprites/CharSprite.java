@@ -18,13 +18,13 @@
  */
 package com.petercassetta.pdrebalanced.sprites;
 
-import com.watabou.noosa.Game;
-import com.watabou.noosa.MovieClip;
-import com.watabou.noosa.Visual;
-import com.watabou.noosa.audio.Sample;
-import com.watabou.noosa.particles.Emitter;
-import com.watabou.noosa.tweeners.PosTweener;
-import com.watabou.noosa.tweeners.Tweener;
+import com.petercassetta.noosa.Game;
+import com.petercassetta.noosa.MovieClip;
+import com.petercassetta.noosa.Visual;
+import com.petercassetta.noosa.audio.Sample;
+import com.petercassetta.noosa.particles.Emitter;
+import com.petercassetta.noosa.tweeners.PosTweener;
+import com.petercassetta.noosa.tweeners.Tweener;
 import com.petercassetta.pdrebalanced.Assets;
 import com.petercassetta.pdrebalanced.DungeonTilemap;
 import com.petercassetta.pdrebalanced.actors.Char;
@@ -39,9 +39,9 @@ import com.petercassetta.pdrebalanced.items.potions.PotionOfInvisibility;
 import com.petercassetta.pdrebalanced.levels.Level;
 import com.petercassetta.pdrebalanced.scenes.GameScene;
 import com.petercassetta.pdrebalanced.utils.Utils;
-import com.watabou.utils.Callback;
-import com.watabou.utils.PointF;
-import com.watabou.utils.Random;
+import com.petercassetta.utils.Callback;
+import com.petercassetta.utils.PointF;
+import com.petercassetta.utils.Random;
 
 public class CharSprite extends MovieClip implements Tweener.Listener, MovieClip.Listener {
 	

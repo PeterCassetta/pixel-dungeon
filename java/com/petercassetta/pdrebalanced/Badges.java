@@ -27,7 +27,7 @@ import java.util.HashSet;
 import java.util.Iterator;
 import java.util.List;
 
-import com.watabou.noosa.Game;
+import com.petercassetta.noosa.Game;
 import com.petercassetta.pdrebalanced.actors.mobs.Acidic;
 import com.petercassetta.pdrebalanced.actors.mobs.Albino;
 import com.petercassetta.pdrebalanced.actors.mobs.Bandit;
@@ -46,8 +46,8 @@ import com.petercassetta.pdrebalanced.items.scrolls.Scroll;
 import com.petercassetta.pdrebalanced.items.wands.Wand;
 import com.petercassetta.pdrebalanced.scenes.PixelScene;
 import com.petercassetta.pdrebalanced.utils.GLog;
-import com.watabou.utils.Bundle;
-import com.watabou.utils.Callback;
+import com.petercassetta.utils.Bundle;
+import com.petercassetta.utils.Callback;
 
 public class Badges {
 	

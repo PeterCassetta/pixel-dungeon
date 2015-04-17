@@ -25,7 +25,7 @@ import com.petercassetta.pdrebalanced.actors.buffs.Levitation;
 import com.petercassetta.pdrebalanced.items.Gold;
 import com.petercassetta.pdrebalanced.items.quest.BrokenRapier;
 import com.petercassetta.pdrebalanced.utils.GLog;
-import com.watabou.noosa.audio.Sample;
+import com.petercassetta.noosa.audio.Sample;
 import com.petercassetta.pdrebalanced.Assets;
 import com.petercassetta.pdrebalanced.Challenges;
 import com.petercassetta.pdrebalanced.Dungeon;
@@ -55,8 +55,8 @@ import com.petercassetta.pdrebalanced.sprites.FetidRatSprite;
 import com.petercassetta.pdrebalanced.sprites.GhostSprite;
 import com.petercassetta.pdrebalanced.windows.WndQuest;
 import com.petercassetta.pdrebalanced.windows.WndSadGhost;
-import com.watabou.utils.Bundle;
-import com.watabou.utils.Random;
+import com.petercassetta.utils.Bundle;
+import com.petercassetta.utils.Random;
 
 public class Ghost extends NPC {
 

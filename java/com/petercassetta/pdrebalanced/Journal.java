@@ -20,8 +20,8 @@ package com.petercassetta.pdrebalanced;
 
 import java.util.ArrayList;
 
-import com.watabou.utils.Bundleable;
-import com.watabou.utils.Bundle;
+import com.petercassetta.utils.Bundleable;
+import com.petercassetta.utils.Bundle;
 
 public class Journal {
 

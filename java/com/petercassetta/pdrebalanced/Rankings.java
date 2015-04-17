@@ -25,12 +25,12 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 
-import com.watabou.noosa.Game;
+import com.petercassetta.noosa.Game;
 import com.petercassetta.pdrebalanced.actors.hero.HeroClass;
 import com.petercassetta.pdrebalanced.utils.Utils;
-import com.watabou.utils.Bundleable;
-import com.watabou.utils.Bundle;
-import com.watabou.utils.SystemTime;
+import com.petercassetta.utils.Bundleable;
+import com.petercassetta.utils.Bundle;
+import com.petercassetta.utils.SystemTime;
 
 public enum Rankings {
 	

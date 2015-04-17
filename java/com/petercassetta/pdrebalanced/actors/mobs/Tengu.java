@@ -20,7 +20,7 @@ package com.petercassetta.pdrebalanced.actors.mobs;
 
 import java.util.HashSet;
 
-import com.watabou.noosa.audio.Sample;
+import com.petercassetta.noosa.audio.Sample;
 import com.petercassetta.pdrebalanced.Assets;
 import com.petercassetta.pdrebalanced.Badges;
 import com.petercassetta.pdrebalanced.Statistics;
@@ -42,7 +42,7 @@ import com.petercassetta.pdrebalanced.levels.Terrain;
 import com.petercassetta.pdrebalanced.mechanics.Ballistica;
 import com.petercassetta.pdrebalanced.scenes.GameScene;
 import com.petercassetta.pdrebalanced.sprites.TenguSprite;
-import com.watabou.utils.Random;
+import com.petercassetta.utils.Random;
 
 public class Tengu extends Mob {
 

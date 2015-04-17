@@ -20,7 +20,7 @@ package com.petercassetta.pdrebalanced.items;
 
 import java.util.ArrayList;
 
-import com.watabou.noosa.particles.Emitter;
+import com.petercassetta.noosa.particles.Emitter;
 import com.petercassetta.pdrebalanced.actors.buffs.Buff;
 import com.petercassetta.pdrebalanced.actors.buffs.Light;
 import com.petercassetta.pdrebalanced.actors.hero.Hero;

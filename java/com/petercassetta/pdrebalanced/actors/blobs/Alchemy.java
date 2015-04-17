@@ -24,7 +24,7 @@ import com.petercassetta.pdrebalanced.effects.BlobEmitter;
 import com.petercassetta.pdrebalanced.effects.Speck;
 import com.petercassetta.pdrebalanced.items.Heap;
 import com.petercassetta.pdrebalanced.items.Item;
-import com.watabou.utils.Bundle;
+import com.petercassetta.utils.Bundle;
 
 public class Alchemy extends Blob {
 

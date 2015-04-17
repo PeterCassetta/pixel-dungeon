@@ -21,8 +21,8 @@ package com.petercassetta.pdrebalanced.windows;
 import java.util.ArrayList;
 
 import com.petercassetta.pdrebalanced.PDRebalanced;
-import com.watabou.noosa.BitmapText;
-import com.watabou.noosa.ui.Component;
+import com.petercassetta.noosa.BitmapText;
+import com.petercassetta.noosa.ui.Component;
 import com.petercassetta.pdrebalanced.items.Item;
 import com.petercassetta.pdrebalanced.items.potions.Potion;
 import com.petercassetta.pdrebalanced.items.scrolls.Scroll;

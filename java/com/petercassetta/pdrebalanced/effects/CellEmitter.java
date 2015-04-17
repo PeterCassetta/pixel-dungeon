@@ -18,10 +18,10 @@
  */
 package com.petercassetta.pdrebalanced.effects;
 
-import com.watabou.noosa.particles.Emitter;
+import com.petercassetta.noosa.particles.Emitter;
 import com.petercassetta.pdrebalanced.DungeonTilemap;
 import com.petercassetta.pdrebalanced.scenes.GameScene;
-import com.watabou.utils.PointF;
+import com.petercassetta.utils.PointF;
 
 public class CellEmitter {
 

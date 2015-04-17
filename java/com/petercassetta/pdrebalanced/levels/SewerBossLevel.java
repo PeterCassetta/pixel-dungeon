@@ -21,7 +21,7 @@ package com.petercassetta.pdrebalanced.levels;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.watabou.noosa.Scene;
+import com.petercassetta.noosa.Scene;
 import com.petercassetta.pdrebalanced.Assets;
 import com.petercassetta.pdrebalanced.Bones;
 import com.petercassetta.pdrebalanced.Dungeon;
@@ -32,9 +32,9 @@ import com.petercassetta.pdrebalanced.items.Heap;
 import com.petercassetta.pdrebalanced.items.Item;
 import com.petercassetta.pdrebalanced.levels.Room.Type;
 import com.petercassetta.pdrebalanced.scenes.GameScene;
-import com.watabou.utils.Bundle;
-import com.watabou.utils.Graph;
-import com.watabou.utils.Random;
+import com.petercassetta.utils.Bundle;
+import com.petercassetta.utils.Graph;
+import com.petercassetta.utils.Random;
 
 public class SewerBossLevel extends RegularLevel {
 

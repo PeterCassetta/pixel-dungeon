@@ -28,7 +28,7 @@ import com.petercassetta.pdrebalanced.effects.particles.SparkParticle;
 import com.petercassetta.pdrebalanced.items.weapon.Weapon;
 import com.petercassetta.pdrebalanced.levels.Level;
 import com.petercassetta.pdrebalanced.levels.traps.LightningTrap;
-import com.watabou.utils.Random;
+import com.petercassetta.utils.Random;
 
 public class Shock extends Weapon.Enchantment {
 

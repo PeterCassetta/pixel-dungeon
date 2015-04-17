@@ -19,9 +19,9 @@
 package com.petercassetta.pdrebalanced.windows;
 
 import com.petercassetta.pdrebalanced.PDRebalanced;
-import com.watabou.noosa.BitmapTextMultiline;
-import com.watabou.noosa.Image;
-import com.watabou.noosa.ui.Component;
+import com.petercassetta.noosa.BitmapTextMultiline;
+import com.petercassetta.noosa.Image;
+import com.petercassetta.noosa.ui.Component;
 import com.petercassetta.pdrebalanced.scenes.PixelScene;
 import com.petercassetta.pdrebalanced.ui.Window;
 

@@ -30,7 +30,7 @@ import com.petercassetta.pdrebalanced.actors.hero.Hero;
 import com.petercassetta.pdrebalanced.effects.Speck;
 import com.petercassetta.pdrebalanced.sprites.ItemSpriteSheet;
 import com.petercassetta.pdrebalanced.utils.GLog;
-import com.watabou.utils.Random;
+import com.petercassetta.utils.Random;
 
 public class FrozenCarpaccio extends Food {
 

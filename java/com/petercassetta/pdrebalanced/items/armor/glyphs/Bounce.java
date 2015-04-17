@@ -26,7 +26,7 @@ import com.petercassetta.pdrebalanced.effects.Pushing;
 import com.petercassetta.pdrebalanced.items.armor.Armor;
 import com.petercassetta.pdrebalanced.items.armor.Armor.Glyph;
 import com.petercassetta.pdrebalanced.levels.Level;
-import com.watabou.utils.Random;
+import com.petercassetta.utils.Random;
 
 public class Bounce extends Glyph {
 

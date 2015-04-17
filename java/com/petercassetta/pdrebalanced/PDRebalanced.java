@@ -27,9 +27,9 @@ import android.util.DisplayMetrics;
 import android.util.Log;
 import android.view.View;
 
-import com.watabou.noosa.Game;
-import com.watabou.noosa.audio.Music;
-import com.watabou.noosa.audio.Sample;
+import com.petercassetta.noosa.Game;
+import com.petercassetta.noosa.audio.Music;
+import com.petercassetta.noosa.audio.Sample;
 import com.petercassetta.pdrebalanced.scenes.GameScene;
 import com.petercassetta.pdrebalanced.scenes.PixelScene;
 import com.petercassetta.pdrebalanced.scenes.TitleScene;
@@ -39,74 +39,74 @@ public class PDRebalanced extends Game {
 	public PDRebalanced() {
 		super( TitleScene.class );
 		
-		com.watabou.utils.Bundle.addAlias(
+		com.petercassetta.utils.Bundle.addAlias(
 			com.petercassetta.pdrebalanced.items.scrolls.ScrollOfUpgrade.class,
-			"com.watabou.pixeldungeon.items.scrolls.ScrollOfEnhancement" );
-		com.watabou.utils.Bundle.addAlias(
+			"com.petercassetta.pixeldungeon.items.scrolls.ScrollOfEnhancement" );
+		com.petercassetta.utils.Bundle.addAlias(
 			com.petercassetta.pdrebalanced.actors.blobs.WaterOfHealth.class,
-			"com.watabou.pixeldungeon.actors.blobs.Light" );
-		com.watabou.utils.Bundle.addAlias(
+			"com.petercassetta.pixeldungeon.actors.blobs.Light" );
+		com.petercassetta.utils.Bundle.addAlias(
 			com.petercassetta.pdrebalanced.items.rings.RingOfMending.class,
-			"com.watabou.pixeldungeon.items.rings.RingOfRejuvenation" );
-		com.watabou.utils.Bundle.addAlias(
+			"com.petercassetta.pixeldungeon.items.rings.RingOfRejuvenation" );
+		com.petercassetta.utils.Bundle.addAlias(
 			com.petercassetta.pdrebalanced.items.wands.WandOfTelekinesis.class,
-			"com.watabou.pixeldungeon.items.wands.WandOfTelekenesis" );
-		com.watabou.utils.Bundle.addAlias(
+			"com.petercassetta.pixeldungeon.items.wands.WandOfTelekenesis" );
+		com.petercassetta.utils.Bundle.addAlias(
 			com.petercassetta.pdrebalanced.actors.blobs.Foliage.class,
-			"com.watabou.pixeldungeon.actors.blobs.Blooming" );
-		com.watabou.utils.Bundle.addAlias(
+			"com.petercassetta.pixeldungeon.actors.blobs.Blooming" );
+		com.petercassetta.utils.Bundle.addAlias(
 			com.petercassetta.pdrebalanced.actors.buffs.Shadows.class,
-			"com.watabou.pixeldungeon.actors.buffs.Rejuvenation" );
-		com.watabou.utils.Bundle.addAlias(
+			"com.petercassetta.pixeldungeon.actors.buffs.Rejuvenation" );
+		com.petercassetta.utils.Bundle.addAlias(
 			com.petercassetta.pdrebalanced.items.scrolls.ScrollOfPsionicBlast.class,
-			"com.watabou.pixeldungeon.items.scrolls.ScrollOfNuclearBlast" );
-		com.watabou.utils.Bundle.addAlias(
+			"com.petercassetta.pixeldungeon.items.scrolls.ScrollOfNuclearBlast" );
+		com.petercassetta.utils.Bundle.addAlias(
 			com.petercassetta.pdrebalanced.actors.hero.Hero.class,
-			"com.watabou.pixeldungeon.actors.Hero" );
-		com.watabou.utils.Bundle.addAlias(
+			"com.petercassetta.pixeldungeon.actors.Hero" );
+		com.petercassetta.utils.Bundle.addAlias(
 			com.petercassetta.pdrebalanced.actors.mobs.npcs.Shopkeeper.class,
-			"com.watabou.pixeldungeon.actors.mobs.Shopkeeper" );
+			"com.petercassetta.pixeldungeon.actors.mobs.Shopkeeper" );
 		// 1.6.1
-		com.watabou.utils.Bundle.addAlias(
+		com.petercassetta.utils.Bundle.addAlias(
 			com.petercassetta.pdrebalanced.items.quest.DriedRose.class,
-			"com.watabou.pixeldungeon.items.DriedRose" );
-		com.watabou.utils.Bundle.addAlias(
+			"com.petercassetta.pixeldungeon.items.DriedRose" );
+		com.petercassetta.utils.Bundle.addAlias(
 			com.petercassetta.pdrebalanced.actors.mobs.npcs.MirrorImage.class,
-			"com.watabou.pixeldungeon.items.scrolls.ScrollOfMirrorImage.MirrorImage" );
+			"com.petercassetta.pixeldungeon.items.scrolls.ScrollOfMirrorImage.MirrorImage" );
 		// 1.6.4
-		com.watabou.utils.Bundle.addAlias(
+		com.petercassetta.utils.Bundle.addAlias(
 			com.petercassetta.pdrebalanced.items.rings.RingOfElements.class,
-			"com.watabou.pixeldungeon.items.rings.RingOfCleansing" );
-		com.watabou.utils.Bundle.addAlias(
+			"com.petercassetta.pixeldungeon.items.rings.RingOfCleansing" );
+		com.petercassetta.utils.Bundle.addAlias(
 			com.petercassetta.pdrebalanced.items.rings.RingOfElements.class,
-			"com.watabou.pixeldungeon.items.rings.RingOfResistance" );
-		com.watabou.utils.Bundle.addAlias(
+			"com.petercassetta.pixeldungeon.items.rings.RingOfResistance" );
+		com.petercassetta.utils.Bundle.addAlias(
 			com.petercassetta.pdrebalanced.items.weapon.missiles.Boomerang.class,
-			"com.watabou.pixeldungeon.items.weapon.missiles.RangersBoomerang" );
-		com.watabou.utils.Bundle.addAlias(
+			"com.petercassetta.pixeldungeon.items.weapon.missiles.RangersBoomerang" );
+		com.petercassetta.utils.Bundle.addAlias(
 			com.petercassetta.pdrebalanced.items.rings.RingOfPower.class,
-			"com.watabou.pixeldungeon.items.rings.RingOfEnergy" );
+			"com.petercassetta.pixeldungeon.items.rings.RingOfEnergy" );
 		// 1.7.2
-		com.watabou.utils.Bundle.addAlias(
+		com.petercassetta.utils.Bundle.addAlias(
 			com.petercassetta.pdrebalanced.plants.Dreamweed.class,
-			"com.watabou.pixeldungeon.plants.Blindweed" );
-		com.watabou.utils.Bundle.addAlias(
+			"com.petercassetta.pixeldungeon.plants.Blindweed" );
+		com.petercassetta.utils.Bundle.addAlias(
 			com.petercassetta.pdrebalanced.plants.Dreamweed.Seed.class,
-			"com.watabou.pixeldungeon.plants.Blindweed$Seed" );
+			"com.petercassetta.pixeldungeon.plants.Blindweed$Seed" );
 		// 1.7.4
-		com.watabou.utils.Bundle.addAlias(
+		com.petercassetta.utils.Bundle.addAlias(
 			com.petercassetta.pdrebalanced.items.weapon.enchantments.Shock.class,
-			"com.watabou.pixeldungeon.items.weapon.enchantments.Piercing" );
-		com.watabou.utils.Bundle.addAlias(
+			"com.petercassetta.pixeldungeon.items.weapon.enchantments.Piercing" );
+		com.petercassetta.utils.Bundle.addAlias(
 			com.petercassetta.pdrebalanced.items.weapon.enchantments.Shock.class,
-			"com.watabou.pixeldungeon.items.weapon.enchantments.Swing" );
-		com.watabou.utils.Bundle.addAlias(
+			"com.petercassetta.pixeldungeon.items.weapon.enchantments.Swing" );
+		com.petercassetta.utils.Bundle.addAlias(
 			com.petercassetta.pdrebalanced.items.scrolls.ScrollOfEnchantment.class,
-			"com.watabou.pixeldungeon.items.scrolls.ScrollOfWeaponUpgrade" );
+			"com.petercassetta.pixeldungeon.items.scrolls.ScrollOfWeaponUpgrade" );
 		// 1.7.5
-		com.watabou.utils.Bundle.addAlias(
+		com.petercassetta.utils.Bundle.addAlias(
 			com.petercassetta.pdrebalanced.items.scrolls.ScrollOfEnchantment.class,
-			"com.watabou.pixeldungeon.items.Stylus" );
+			"com.petercassetta.pixeldungeon.items.Stylus" );
 	}
 	
 	@Override

@@ -35,7 +35,7 @@ import com.petercassetta.pdrebalanced.items.weapon.melee.ShortSword;
 import com.petercassetta.pdrebalanced.items.weapon.missiles.Dart;
 import com.petercassetta.pdrebalanced.items.weapon.missiles.Boomerang;
 import com.petercassetta.pdrebalanced.ui.QuickSlot;
-import com.watabou.utils.Bundle;
+import com.petercassetta.utils.Bundle;
 
 public enum HeroClass {
 

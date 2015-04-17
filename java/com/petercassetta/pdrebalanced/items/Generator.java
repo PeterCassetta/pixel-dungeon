@@ -36,7 +36,7 @@ import com.petercassetta.pdrebalanced.items.weapon.*;
 import com.petercassetta.pdrebalanced.items.weapon.melee.*;
 import com.petercassetta.pdrebalanced.items.weapon.missiles.*;
 import com.petercassetta.pdrebalanced.plants.*;
-import com.watabou.utils.Random;
+import com.petercassetta.utils.Random;
 
 public class Generator {
 

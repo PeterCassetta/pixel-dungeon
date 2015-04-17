@@ -20,7 +20,7 @@ package com.petercassetta.pdrebalanced.items.wands;
 
 import java.util.ArrayList;
 
-import com.watabou.noosa.audio.Sample;
+import com.petercassetta.noosa.audio.Sample;
 import com.petercassetta.pdrebalanced.Assets;
 import com.petercassetta.pdrebalanced.Badges;
 import com.petercassetta.pdrebalanced.Dungeon;
@@ -42,9 +42,9 @@ import com.petercassetta.pdrebalanced.scenes.GameScene;
 import com.petercassetta.pdrebalanced.sprites.ItemSpriteSheet;
 import com.petercassetta.pdrebalanced.ui.QuickSlot;
 import com.petercassetta.pdrebalanced.utils.GLog;
-import com.watabou.utils.Bundle;
-import com.watabou.utils.Callback;
-import com.watabou.utils.Random;
+import com.petercassetta.utils.Bundle;
+import com.petercassetta.utils.Callback;
+import com.petercassetta.utils.Random;
 
 public abstract class Wand extends KindOfWeapon {
 

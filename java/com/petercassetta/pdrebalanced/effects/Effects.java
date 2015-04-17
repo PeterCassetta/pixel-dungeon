@@ -18,7 +18,7 @@
  */
 package com.petercassetta.pdrebalanced.effects;
 
-import com.watabou.noosa.Image;
+import com.petercassetta.noosa.Image;
 import com.petercassetta.pdrebalanced.Assets;
 
 public class Effects {

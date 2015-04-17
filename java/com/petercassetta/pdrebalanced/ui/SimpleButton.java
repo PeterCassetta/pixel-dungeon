@@ -18,10 +18,10 @@
  */
 package com.petercassetta.pdrebalanced.ui;
 
-import com.watabou.input.Touchscreen.Touch;
-import com.watabou.noosa.Image;
-import com.watabou.noosa.TouchArea;
-import com.watabou.noosa.ui.Component;
+import com.petercassetta.input.Touchscreen.Touch;
+import com.petercassetta.noosa.Image;
+import com.petercassetta.noosa.TouchArea;
+import com.petercassetta.noosa.ui.Component;
 
 public class SimpleButton extends Component {
 			

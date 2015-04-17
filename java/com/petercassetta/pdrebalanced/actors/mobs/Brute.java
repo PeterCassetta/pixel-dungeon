@@ -27,8 +27,8 @@ import com.petercassetta.pdrebalanced.items.Gold;
 import com.petercassetta.pdrebalanced.sprites.BruteSprite;
 import com.petercassetta.pdrebalanced.sprites.CharSprite;
 import com.petercassetta.pdrebalanced.utils.GLog;
-import com.watabou.utils.Bundle;
-import com.watabou.utils.Random;
+import com.petercassetta.utils.Bundle;
+import com.petercassetta.utils.Random;
 
 public class Brute extends Mob {
 

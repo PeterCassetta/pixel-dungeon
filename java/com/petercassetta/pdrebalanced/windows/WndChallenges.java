@@ -21,7 +21,7 @@ package com.petercassetta.pdrebalanced.windows;
 import java.util.ArrayList;
 
 import com.petercassetta.pdrebalanced.PDRebalanced;
-import com.watabou.noosa.BitmapText;
+import com.petercassetta.noosa.BitmapText;
 import com.petercassetta.pdrebalanced.Challenges;
 import com.petercassetta.pdrebalanced.scenes.PixelScene;
 import com.petercassetta.pdrebalanced.ui.CheckBox;

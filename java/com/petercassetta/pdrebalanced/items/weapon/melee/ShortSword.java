@@ -20,7 +20,7 @@ package com.petercassetta.pdrebalanced.items.weapon.melee;
 
 import java.util.ArrayList;
 
-import com.watabou.noosa.audio.Sample;
+import com.petercassetta.noosa.audio.Sample;
 import com.petercassetta.pdrebalanced.Assets;
 import com.petercassetta.pdrebalanced.Badges;
 import com.petercassetta.pdrebalanced.actors.hero.Hero;

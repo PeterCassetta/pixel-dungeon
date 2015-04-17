@@ -21,9 +21,9 @@ package com.petercassetta.pdrebalanced.windows;
 import java.util.Collections;
 
 import com.petercassetta.pdrebalanced.PDRebalanced;
-import com.watabou.noosa.BitmapText;
-import com.watabou.noosa.Image;
-import com.watabou.noosa.ui.Component;
+import com.petercassetta.noosa.BitmapText;
+import com.petercassetta.noosa.Image;
+import com.petercassetta.noosa.ui.Component;
 import com.petercassetta.pdrebalanced.Dungeon;
 import com.petercassetta.pdrebalanced.Journal;
 import com.petercassetta.pdrebalanced.scenes.PixelScene;

@@ -18,8 +18,8 @@
  */
 package com.petercassetta.pdrebalanced.items.wands;
 
-import com.watabou.noosa.audio.Sample;
-import com.watabou.noosa.tweeners.AlphaTweener;
+import com.petercassetta.noosa.audio.Sample;
+import com.petercassetta.noosa.tweeners.AlphaTweener;
 import com.petercassetta.pdrebalanced.Assets;
 import com.petercassetta.pdrebalanced.Dungeon;
 import com.petercassetta.pdrebalanced.actors.Actor;
@@ -27,7 +27,7 @@ import com.petercassetta.pdrebalanced.actors.Char;
 import com.petercassetta.pdrebalanced.effects.MagicMissile;
 import com.petercassetta.pdrebalanced.effects.Speck;
 import com.petercassetta.pdrebalanced.mechanics.Ballistica;
-import com.watabou.utils.Callback;
+import com.petercassetta.utils.Callback;
 
 public class WandOfBlink extends Wand {
 

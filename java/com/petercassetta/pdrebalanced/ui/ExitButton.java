@@ -19,10 +19,10 @@
 package com.petercassetta.pdrebalanced.ui;
 
 import com.petercassetta.pdrebalanced.PDRebalanced;
-import com.watabou.noosa.Game;
-import com.watabou.noosa.Image;
-import com.watabou.noosa.audio.Sample;
-import com.watabou.noosa.ui.Button;
+import com.petercassetta.noosa.Game;
+import com.petercassetta.noosa.Image;
+import com.petercassetta.noosa.audio.Sample;
+import com.petercassetta.noosa.ui.Button;
 import com.petercassetta.pdrebalanced.Assets;
 import com.petercassetta.pdrebalanced.scenes.TitleScene;
 

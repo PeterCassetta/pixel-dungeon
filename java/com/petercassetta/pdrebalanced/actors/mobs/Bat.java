@@ -25,7 +25,7 @@ import com.petercassetta.pdrebalanced.effects.Speck;
 import com.petercassetta.pdrebalanced.items.potions.PotionOfHealing;
 import com.petercassetta.pdrebalanced.items.weapon.enchantments.Leech;
 import com.petercassetta.pdrebalanced.sprites.BatSprite;
-import com.watabou.utils.Random;
+import com.petercassetta.utils.Random;
 
 public class Bat extends Mob {
 

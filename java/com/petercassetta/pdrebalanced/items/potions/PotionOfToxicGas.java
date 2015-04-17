@@ -18,7 +18,7 @@
  */
 package com.petercassetta.pdrebalanced.items.potions;
 
-import com.watabou.noosa.audio.Sample;
+import com.petercassetta.noosa.audio.Sample;
 import com.petercassetta.pdrebalanced.Assets;
 import com.petercassetta.pdrebalanced.Dungeon;
 import com.petercassetta.pdrebalanced.actors.blobs.Blob;

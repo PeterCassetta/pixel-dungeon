@@ -18,8 +18,8 @@
  */
 package com.petercassetta.pdrebalanced.windows;
 
-import com.watabou.noosa.BitmapText;
-import com.watabou.noosa.ui.Component;
+import com.petercassetta.noosa.BitmapText;
+import com.petercassetta.noosa.ui.Component;
 import com.petercassetta.pdrebalanced.actors.mobs.Mob;
 import com.petercassetta.pdrebalanced.scenes.PixelScene;
 import com.petercassetta.pdrebalanced.sprites.CharSprite;

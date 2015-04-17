@@ -18,8 +18,8 @@
  */
 package com.petercassetta.pdrebalanced.items.wands;
 
-import com.watabou.noosa.Camera;
-import com.watabou.noosa.audio.Sample;
+import com.petercassetta.noosa.Camera;
+import com.petercassetta.noosa.audio.Sample;
 import com.petercassetta.pdrebalanced.Assets;
 import com.petercassetta.pdrebalanced.Dungeon;
 import com.petercassetta.pdrebalanced.ResultDescriptions;
@@ -35,9 +35,9 @@ import com.petercassetta.pdrebalanced.mechanics.Ballistica;
 import com.petercassetta.pdrebalanced.utils.BArray;
 import com.petercassetta.pdrebalanced.utils.GLog;
 import com.petercassetta.pdrebalanced.utils.Utils;
-import com.watabou.utils.Callback;
-import com.watabou.utils.PathFinder;
-import com.watabou.utils.Random;
+import com.petercassetta.utils.Callback;
+import com.petercassetta.utils.PathFinder;
+import com.petercassetta.utils.Random;
 
 public class WandOfAvalanche extends Wand {
 

@@ -21,7 +21,7 @@ package com.petercassetta.pdrebalanced.items.wands;
 import java.util.ArrayList;
 import java.util.HashSet;
 
-import com.watabou.noosa.Camera;
+import com.petercassetta.noosa.Camera;
 import com.petercassetta.pdrebalanced.Dungeon;
 import com.petercassetta.pdrebalanced.ResultDescriptions;
 import com.petercassetta.pdrebalanced.actors.Actor;
@@ -33,8 +33,8 @@ import com.petercassetta.pdrebalanced.levels.Level;
 import com.petercassetta.pdrebalanced.levels.traps.LightningTrap;
 import com.petercassetta.pdrebalanced.utils.GLog;
 import com.petercassetta.pdrebalanced.utils.Utils;
-import com.watabou.utils.Callback;
-import com.watabou.utils.Random;
+import com.petercassetta.utils.Callback;
+import com.petercassetta.utils.Random;
 
 public class WandOfLightning extends Wand {
 

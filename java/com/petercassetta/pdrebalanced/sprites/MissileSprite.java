@@ -18,12 +18,12 @@
  */
 package com.petercassetta.pdrebalanced.sprites;
 
-import com.watabou.noosa.tweeners.PosTweener;
-import com.watabou.noosa.tweeners.Tweener;
+import com.petercassetta.noosa.tweeners.PosTweener;
+import com.petercassetta.noosa.tweeners.Tweener;
 import com.petercassetta.pdrebalanced.DungeonTilemap;
 import com.petercassetta.pdrebalanced.items.Item;
-import com.watabou.utils.Callback;
-import com.watabou.utils.PointF;
+import com.petercassetta.utils.Callback;
+import com.petercassetta.utils.PointF;
 
 public class MissileSprite extends ItemSprite implements Tweener.Listener {
 

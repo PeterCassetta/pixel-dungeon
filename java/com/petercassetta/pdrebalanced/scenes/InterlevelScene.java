@@ -20,11 +20,11 @@ package com.petercassetta.pdrebalanced.scenes;
 
 import java.io.FileNotFoundException;
 
-import com.watabou.noosa.BitmapText;
-import com.watabou.noosa.Camera;
-import com.watabou.noosa.Game;
-import com.watabou.noosa.audio.Music;
-import com.watabou.noosa.audio.Sample;
+import com.petercassetta.noosa.BitmapText;
+import com.petercassetta.noosa.Camera;
+import com.petercassetta.noosa.Game;
+import com.petercassetta.noosa.audio.Music;
+import com.petercassetta.noosa.audio.Sample;
 import com.petercassetta.pdrebalanced.Assets;
 import com.petercassetta.pdrebalanced.Dungeon;
 import com.petercassetta.pdrebalanced.Statistics;

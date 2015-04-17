@@ -18,8 +18,8 @@
  */
 package com.petercassetta.pdrebalanced.ui;
 
-import com.watabou.noosa.BitmapText;
-import com.watabou.noosa.ui.Button;
+import com.petercassetta.noosa.BitmapText;
+import com.petercassetta.noosa.ui.Button;
 import com.petercassetta.pdrebalanced.Dungeon;
 import com.petercassetta.pdrebalanced.items.Item;
 import com.petercassetta.pdrebalanced.items.armor.Armor;

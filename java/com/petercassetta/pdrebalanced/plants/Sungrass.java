@@ -27,7 +27,7 @@ import com.petercassetta.pdrebalanced.effects.particles.ShaftParticle;
 import com.petercassetta.pdrebalanced.items.potions.PotionOfHealing;
 import com.petercassetta.pdrebalanced.sprites.ItemSpriteSheet;
 import com.petercassetta.pdrebalanced.ui.BuffIndicator;
-import com.watabou.utils.Bundle;
+import com.petercassetta.utils.Bundle;
 
 public class Sungrass extends Plant {
 

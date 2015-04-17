@@ -27,7 +27,7 @@ import com.petercassetta.pdrebalanced.actors.buffs.Terror;
 import com.petercassetta.pdrebalanced.actors.mobs.npcs.Imp;
 import com.petercassetta.pdrebalanced.items.scrolls.ScrollOfPsionicBlast;
 import com.petercassetta.pdrebalanced.sprites.GolemSprite;
-import com.watabou.utils.Random;
+import com.petercassetta.utils.Random;
 
 public class Golem extends Mob {
 	

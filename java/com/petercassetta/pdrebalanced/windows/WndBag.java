@@ -21,11 +21,11 @@ package com.petercassetta.pdrebalanced.windows;
 import android.graphics.RectF;
 
 import com.petercassetta.pdrebalanced.PDRebalanced;
-import com.watabou.gltextures.TextureCache;
-import com.watabou.noosa.BitmapText;
-import com.watabou.noosa.ColorBlock;
-import com.watabou.noosa.Image;
-import com.watabou.noosa.audio.Sample;
+import com.petercassetta.gltextures.TextureCache;
+import com.petercassetta.noosa.BitmapText;
+import com.petercassetta.noosa.ColorBlock;
+import com.petercassetta.noosa.Image;
+import com.petercassetta.noosa.audio.Sample;
 import com.petercassetta.pdrebalanced.Assets;
 import com.petercassetta.pdrebalanced.Dungeon;
 import com.petercassetta.pdrebalanced.actors.hero.Belongings;
@@ -49,7 +49,6 @@ import com.petercassetta.pdrebalanced.ui.Icons;
 import com.petercassetta.pdrebalanced.ui.ItemSlot;
 import com.petercassetta.pdrebalanced.ui.QuickSlot;
 import com.petercassetta.pdrebalanced.utils.Utils;
-import com.watabou.utils.GameMath;
 
 public class WndBag extends WndTabbed {
 	

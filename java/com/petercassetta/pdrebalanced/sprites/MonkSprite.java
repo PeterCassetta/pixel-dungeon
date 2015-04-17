@@ -18,9 +18,9 @@
  */
 package com.petercassetta.pdrebalanced.sprites;
 
-import com.watabou.noosa.TextureFilm;
+import com.petercassetta.noosa.TextureFilm;
 import com.petercassetta.pdrebalanced.Assets;
-import com.watabou.utils.Random;
+import com.petercassetta.utils.Random;
 
 public class MonkSprite extends MobSprite {
 	

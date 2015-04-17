@@ -32,7 +32,7 @@ import com.petercassetta.pdrebalanced.items.weapon.enchantments.Leech;
 import com.petercassetta.pdrebalanced.levels.Level;
 import com.petercassetta.pdrebalanced.mechanics.Ballistica;
 import com.petercassetta.pdrebalanced.sprites.ScorpioSprite;
-import com.watabou.utils.Random;
+import com.petercassetta.utils.Random;
 
 public class Scorpio extends Mob {
 	

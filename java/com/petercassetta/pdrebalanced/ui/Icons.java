@@ -18,7 +18,7 @@
  */
 package com.petercassetta.pdrebalanced.ui;
 
-import com.watabou.noosa.Image;
+import com.petercassetta.noosa.Image;
 import com.petercassetta.pdrebalanced.Assets;
 import com.petercassetta.pdrebalanced.actors.hero.HeroClass;
 

@@ -19,11 +19,11 @@
 package com.petercassetta.pdrebalanced.scenes;
 
 import com.petercassetta.pdrebalanced.PDRebalanced;
-import com.watabou.noosa.BitmapText;
-import com.watabou.noosa.Camera;
-import com.watabou.noosa.Game;
-import com.watabou.noosa.NinePatch;
-import com.watabou.noosa.audio.Music;
+import com.petercassetta.noosa.BitmapText;
+import com.petercassetta.noosa.Camera;
+import com.petercassetta.noosa.Game;
+import com.petercassetta.noosa.NinePatch;
+import com.petercassetta.noosa.audio.Music;
 import com.petercassetta.pdrebalanced.Assets;
 import com.petercassetta.pdrebalanced.Badges;
 import com.petercassetta.pdrebalanced.Chrome;
@@ -32,7 +32,7 @@ import com.petercassetta.pdrebalanced.ui.BadgesList;
 import com.petercassetta.pdrebalanced.ui.ExitButton;
 import com.petercassetta.pdrebalanced.ui.ScrollPane;
 import com.petercassetta.pdrebalanced.ui.Window;
-import com.watabou.utils.Callback;
+import com.petercassetta.utils.Callback;
 
 public class BadgesScene extends PixelScene {
 	

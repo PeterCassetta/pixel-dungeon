@@ -18,13 +18,13 @@
  */
 package com.petercassetta.pdrebalanced;
 
-import com.watabou.noosa.Image;
-import com.watabou.noosa.TextureFilm;
-import com.watabou.noosa.Tilemap;
-import com.watabou.noosa.tweeners.AlphaTweener;
+import com.petercassetta.noosa.Image;
+import com.petercassetta.noosa.TextureFilm;
+import com.petercassetta.noosa.Tilemap;
+import com.petercassetta.noosa.tweeners.AlphaTweener;
 import com.petercassetta.pdrebalanced.levels.Level;
-import com.watabou.utils.Point;
-import com.watabou.utils.PointF;
+import com.petercassetta.utils.Point;
+import com.petercassetta.utils.PointF;
 
 public class DungeonTilemap extends Tilemap {
 

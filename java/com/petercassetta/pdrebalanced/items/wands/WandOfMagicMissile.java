@@ -20,7 +20,7 @@ package com.petercassetta.pdrebalanced.items.wands;
 
 import java.util.ArrayList;
 
-import com.watabou.noosa.audio.Sample;
+import com.petercassetta.noosa.audio.Sample;
 import com.petercassetta.pdrebalanced.Assets;
 import com.petercassetta.pdrebalanced.Badges;
 import com.petercassetta.pdrebalanced.Dungeon;
@@ -35,7 +35,7 @@ import com.petercassetta.pdrebalanced.sprites.ItemSpriteSheet;
 import com.petercassetta.pdrebalanced.utils.GLog;
 import com.petercassetta.pdrebalanced.utils.Utils;
 import com.petercassetta.pdrebalanced.windows.WndBag;
-import com.watabou.utils.Random;
+import com.petercassetta.utils.Random;
 
 public class WandOfMagicMissile extends Wand {
 

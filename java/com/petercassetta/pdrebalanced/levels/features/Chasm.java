@@ -18,9 +18,9 @@
  */
 package com.petercassetta.pdrebalanced.levels.features;
 
-import com.watabou.noosa.Camera;
-import com.watabou.noosa.Game;
-import com.watabou.noosa.audio.Sample;
+import com.petercassetta.noosa.Camera;
+import com.petercassetta.noosa.Game;
+import com.petercassetta.noosa.audio.Sample;
 import com.petercassetta.pdrebalanced.Assets;
 import com.petercassetta.pdrebalanced.Badges;
 import com.petercassetta.pdrebalanced.Dungeon;
@@ -37,7 +37,7 @@ import com.petercassetta.pdrebalanced.sprites.MobSprite;
 import com.petercassetta.pdrebalanced.utils.GLog;
 import com.petercassetta.pdrebalanced.utils.Utils;
 import com.petercassetta.pdrebalanced.windows.WndOptions;
-import com.watabou.utils.Random;
+import com.petercassetta.utils.Random;
 
 public class Chasm {
 	

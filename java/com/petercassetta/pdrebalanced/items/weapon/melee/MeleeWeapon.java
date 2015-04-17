@@ -22,7 +22,7 @@ import com.petercassetta.pdrebalanced.Dungeon;
 import com.petercassetta.pdrebalanced.items.Item;
 import com.petercassetta.pdrebalanced.items.weapon.Weapon;
 import com.petercassetta.pdrebalanced.utils.Utils;
-import com.watabou.utils.Random;
+import com.petercassetta.utils.Random;
 
 public class MeleeWeapon extends Weapon {
 	

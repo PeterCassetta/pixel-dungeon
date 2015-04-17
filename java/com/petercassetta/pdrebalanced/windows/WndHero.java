@@ -20,12 +20,12 @@ package com.petercassetta.pdrebalanced.windows;
 
 import java.util.Locale;
 
-import com.watabou.gltextures.SmartTexture;
-import com.watabou.gltextures.TextureCache;
-import com.watabou.noosa.BitmapText;
-import com.watabou.noosa.Group;
-import com.watabou.noosa.Image;
-import com.watabou.noosa.TextureFilm;
+import com.petercassetta.gltextures.SmartTexture;
+import com.petercassetta.gltextures.TextureCache;
+import com.petercassetta.noosa.BitmapText;
+import com.petercassetta.noosa.Group;
+import com.petercassetta.noosa.Image;
+import com.petercassetta.noosa.TextureFilm;
 import com.petercassetta.pdrebalanced.Assets;
 import com.petercassetta.pdrebalanced.Dungeon;
 import com.petercassetta.pdrebalanced.Statistics;

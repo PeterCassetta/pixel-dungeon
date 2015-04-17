@@ -22,7 +22,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 
-import com.watabou.noosa.audio.Sample;
+import com.petercassetta.noosa.audio.Sample;
 import com.petercassetta.pdrebalanced.Assets;
 import com.petercassetta.pdrebalanced.Badges;
 import com.petercassetta.pdrebalanced.Dungeon;
@@ -41,9 +41,9 @@ import com.petercassetta.pdrebalanced.sprites.MissileSprite;
 import com.petercassetta.pdrebalanced.ui.QuickSlot;
 import com.petercassetta.pdrebalanced.utils.GLog;
 import com.petercassetta.pdrebalanced.utils.Utils;
-import com.watabou.utils.Bundleable;
-import com.watabou.utils.Bundle;
-import com.watabou.utils.Callback;
+import com.petercassetta.utils.Bundleable;
+import com.petercassetta.utils.Bundle;
+import com.petercassetta.utils.Callback;
 
 public class Item implements Bundleable {
 
