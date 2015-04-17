@@ -18,6 +18,7 @@
  */
 package com.petercassetta.pdrebalanced.windows;
 
+import com.petercassetta.pdrebalanced.items.quest.RatSkull;
 import com.watabou.noosa.BitmapTextMultiline;
 import com.petercassetta.pdrebalanced.Dungeon;
 import com.petercassetta.pdrebalanced.actors.hero.Hero;
@@ -37,28 +38,39 @@ public class WndSadGhost extends Window {
 		"Yes! Yes!!! This is it! Please give it to me! " +
 		"And you can take one of these items, maybe they " +
 		"will be useful to you in your journey...";
-	private static final String TXT_RAT	= 
-		"Yes! The ugly creature is slain and I can finally rest... " +
-		"Please take one of these items, maybe they " +
-		"will be useful to you in your journey...";
+    private static final String TXT_RAT	=
+        "Yes! The ugly creature is slain and I can finally rest... " +
+        "Please take one of these items, maybe they " +
+        "will be useful to you in your journey...";
+    private static final String TXT_CASDA	=
+        "Yes! The vile warrior is slain and my sword will be whole once again! " +
+        "Please take one of these items, maybe they " +
+        "will be useful to you in your journey...";
 	private static final String TXT_WEAPON	= "Ghost's weapon";
 	private static final String TXT_ARMOR	= "Ghost's armor";
-	
+
 	private static final int WIDTH		= 120;
 	private static final int BTN_HEIGHT	= 20;
 	private static final float GAP		= 2;
-	
+
 	public WndSadGhost( final Ghost ghost, final Item item ) {
 		
 		super();
-		
+
 		IconTitle titlebar = new IconTitle();
 		titlebar.icon( new ItemSprite( item.image(), null ) );
 		titlebar.label( Utils.capitalize( item.name() ) );
 		titlebar.setRect( 0, 0, WIDTH, 0 );
 		add( titlebar );
-		
-		BitmapTextMultiline message = PixelScene.createMultiline( item instanceof DriedRose ? TXT_ROSE : TXT_RAT, 6 );
+
+        BitmapTextMultiline message;
+        if (item instanceof DriedRose)
+            message = PixelScene.createMultiline( TXT_ROSE, 6 );
+        else if (item instanceof RatSkull)
+            message = PixelScene.createMultiline( TXT_RAT, 6 );
+        else
+            message = PixelScene.createMultiline( TXT_CASDA, 6 );
+
 		message.maxWidth = WIDTH;
 		message.measure();
 		message.y = titlebar.bottom() + GAP;

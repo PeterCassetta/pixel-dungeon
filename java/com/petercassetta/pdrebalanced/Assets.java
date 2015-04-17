@@ -81,6 +81,7 @@ public class Assets {
 	public static final String YOG		= "yog.png";
 	public static final String LARVA	= "larva.png";
 	public static final String GHOST	= "ghost.png";
+    public static final String CASDA	= "casda.png";
 	public static final String MAKER	= "wandmaker.png";
 	public static final String TROLL	= "blacksmith.png";
 	public static final String IMP		= "demon.png";
@@ -113,9 +114,10 @@ public class Assets {
 	public static final String FONTS25X	= "font25x.png";
 	public static final String FONTS3X	= "font3x.png";
 	
-	public static final String THEME	= "theme.mp3";
-	public static final String TUNE		= "game.mp3";
-	public static final String HAPPY	= "surface.mp3";
+	public static final String THEME        = "theme.mp3";
+    public static final String TUNE         = "game.mp3";
+    public static final String TUNE_CASDA   = "casda.mp3";
+	public static final String HAPPY	    = "surface.mp3";
 	
 	public static final String SND_CLICK	= "snd_click.mp3";
 	public static final String SND_BADGE	= "snd_badge.mp3";

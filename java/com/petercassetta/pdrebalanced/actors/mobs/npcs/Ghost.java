@@ -20,6 +20,11 @@ package com.petercassetta.pdrebalanced.actors.mobs.npcs;
 
 import java.util.HashSet;
 
+import com.petercassetta.pdrebalanced.actors.buffs.Bleeding;
+import com.petercassetta.pdrebalanced.actors.buffs.Levitation;
+import com.petercassetta.pdrebalanced.items.Gold;
+import com.petercassetta.pdrebalanced.items.quest.BrokenRapier;
+import com.petercassetta.pdrebalanced.utils.GLog;
 import com.watabou.noosa.audio.Sample;
 import com.petercassetta.pdrebalanced.Assets;
 import com.petercassetta.pdrebalanced.Challenges;
@@ -45,6 +50,7 @@ import com.petercassetta.pdrebalanced.items.weapon.Weapon;
 import com.petercassetta.pdrebalanced.items.weapon.missiles.MissileWeapon;
 import com.petercassetta.pdrebalanced.levels.SewerLevel;
 import com.petercassetta.pdrebalanced.scenes.GameScene;
+import com.petercassetta.pdrebalanced.sprites.CasdaSprite;
 import com.petercassetta.pdrebalanced.sprites.FetidRatSprite;
 import com.petercassetta.pdrebalanced.sprites.GhostSprite;
 import com.petercassetta.pdrebalanced.windows.WndQuest;
@@ -65,19 +71,27 @@ public class Ghost extends NPC {
 	
 	private static final String TXT_ROSE1	=
 		"Hello adventurer... Once I was like you - strong and confident... " +
-		"And now I'm dead... But I can't leave this place... Not until I have my _dried rose_... " +
+		"But now I'm dead... and I cannot leave this place, not until I have my _dried rose_... " +
 		"It's very important to me... Some monster stole it from my body...";
 	
 	private static final String TXT_ROSE2	=
 		"Please... Help me... Find the rose...";
-	
-	private static final String TXT_RAT1	=
-		"Hello adventurer... Once I was like you - strong and confident... " +
-		"And now I'm dead... But I can't leave this place... Not until I have my revenge... " +
-		"Slay the _fetid rat_, that has taken my life...";
-		
-	private static final String TXT_RAT2	=
-		"Please... Help me... Slay the abomination...";
+
+    private static final String TXT_RAT1	=
+            "Hello adventurer... Once I was like you - strong and confident... " +
+                    "But now I'm dead... and I cannot leave this place, not until I am have been avenged... " +
+                    "Slay the _fetid rat_ that has taken my life...";
+
+    private static final String TXT_RAT2	=
+            "Please... Help me... Slay the abomination...";
+
+    private static final String TXT_CASDA1	=
+            "Hello adventurer... Once I was like you - strong and confident... " +
+                    "But now I'm dead... and I cannot leave this place, not until I have reclaimed what is mine... " +
+                    "Slay _Cas'da the Defiler_, who has destroyed my beloved sword and I, taking its hilt for himself...";
+
+    private static final String TXT_CASDA2	=
+            "Please... Help me... Slay the Defiler...";
 
 	
 	public Ghost() {
@@ -126,14 +140,24 @@ public class Ghost extends NPC {
 		Sample.INSTANCE.play( Assets.SND_GHOST );
 		
 		if (Quest.given) {
-			
-			Item item = Quest.alternative ?
-				Dungeon.hero.belongings.getItem( RatSkull.class ) :
-				Dungeon.hero.belongings.getItem( DriedRose.class );	
+			Item item;
+			if (Quest.alternative) {
+                if (Quest.casda)
+                    item = Dungeon.hero.belongings.getItem(BrokenRapier.class);
+                else
+                    item = Dungeon.hero.belongings.getItem(RatSkull.class);
+            } else {
+                item = Dungeon.hero.belongings.getItem(DriedRose.class);
+            }
+
 			if (item != null) {
 				GameScene.show( new WndSadGhost( this, item ) );
 			} else {
-				GameScene.show( new WndQuest( this, Quest.alternative ? TXT_RAT2 : TXT_ROSE2 ) );
+                if (Quest.alternative) {
+                    GameScene.show(new WndQuest(this, Quest.casda ? TXT_CASDA2 : TXT_RAT2));
+                } else {
+                    GameScene.show(new WndQuest(this, TXT_ROSE2));
+                }
 
 				int newPos = -1;
 				for (int i=0; i < 10; i++) {
@@ -154,7 +178,12 @@ public class Ghost extends NPC {
 			}
 			
 		} else {
-			GameScene.show( new WndQuest( this, Quest.alternative ? TXT_RAT1 : TXT_ROSE1 ) );
+
+            if (Quest.alternative) {
+                GameScene.show(new WndQuest(this, Quest.casda ? TXT_CASDA1 : TXT_RAT1));
+            } else {
+                GameScene.show(new WndQuest(this, TXT_ROSE1));
+            }
 			Quest.given = true;
 			
 			Journal.add( Journal.Feature.GHOST );
@@ -183,7 +212,9 @@ public class Ghost extends NPC {
 
 		private static boolean spawned;
 
-		private static boolean alternative;
+        private static boolean alternative;
+
+        private static boolean casda;
 
 		private static boolean given;
 
@@ -206,7 +237,8 @@ public class Ghost extends NPC {
 		private static final String NODE		= "sadGhost";
 		
 		private static final String SPAWNED		= "spawned";
-		private static final String ALTERNATIVE	= "alternative";
+        private static final String ALTERNATIVE	= "alternative";
+        private static final String CASDA	    = "casda";
 		private static final String LEFT2KILL	= "left2kill";
 		private static final String GIVEN		= "given";
 		private static final String PROCESSED	= "processed";
@@ -221,11 +253,13 @@ public class Ghost extends NPC {
 			node.put( SPAWNED, spawned );
 			
 			if (spawned) {
-				
-				node.put( ALTERNATIVE, alternative );
+
+                node.put( ALTERNATIVE, alternative );
 				if (!alternative) {
 					node.put( LEFT2KILL, left2kill );
-				}
+				} else {
+                    node.put( CASDA, casda );
+                }
 				
 				node.put( GIVEN, given );
 				node.put( DEPTH, depth );
@@ -244,17 +278,19 @@ public class Ghost extends NPC {
 			
 			if (!node.isNull() && (spawned = node.getBoolean( SPAWNED ))) {
 				
-				alternative	=  node.getBoolean( ALTERNATIVE );
+				alternative	= node.getBoolean( ALTERNATIVE );
 				if (!alternative) {
 					left2kill = node.getInt( LEFT2KILL );
-				}
+				} else {
+                    casda = node.getBoolean( CASDA );
+                }
 				
-				given	= node.getBoolean( GIVEN );
-				depth	= node.getInt( DEPTH );
+				given	    = node.getBoolean( GIVEN );
+				depth	    = node.getInt( DEPTH );
 				processed	= node.getBoolean( PROCESSED );
 				
-				weapon	= (Weapon)node.get( WEAPON );
-				armor	= (Armor)node.get( ARMOR );
+				weapon	    = (Weapon)node.get( WEAPON );
+				armor	    = (Armor)node.get( ARMOR );
 			} else {
 				reset();
 			}
@@ -274,7 +310,9 @@ public class Ghost extends NPC {
 				alternative = Random.Int( 2 ) == 0;
 				if (!alternative) {
 					left2kill = 8;
-				}
+				} else {
+                    casda = Random.Int(2) == 0;
+                }
 				
 				given = false;
 				processed = false;
@@ -311,13 +349,22 @@ public class Ghost extends NPC {
 		public static void process( int pos ) {
 			if (spawned && given && !processed && (depth == Dungeon.depth)) {
 				if (alternative) {
-					
-					FetidRat rat = new FetidRat();
-					rat.pos = Dungeon.level.randomRespawnCell();
-					if (rat.pos != -1) {
-						GameScene.add( rat );
-						processed = true;
-					}
+
+					if (casda) {
+                        Casda casda = new Casda();
+                        casda.pos = Dungeon.level.randomRespawnCell();
+                        if (casda.pos != -1) {
+                            GameScene.add(casda);
+                            processed = true;
+                        }
+                    } else {
+                        FetidRat rat = new FetidRat();
+                        rat.pos = Dungeon.level.randomRespawnCell();
+                        if (rat.pos != -1) {
+                            GameScene.add(rat);
+                            processed = true;
+                        }
+                    }
 					
 				} else {
 					
@@ -339,66 +386,134 @@ public class Ghost extends NPC {
 			Journal.remove( Journal.Feature.GHOST );
 		}
 	}
-	
-	public static class FetidRat extends Mob {
 
-		{
-			name = "fetid rat";
-			spriteClass = FetidRatSprite.class;
-			
-			HP = HT = 15;
-			defenseSkill = 5;
-			
-			EXP = 0;
-			maxLvl = 5;	
-			
-			state = WANDERING;
-		}
-		
-		@Override
-		public int damageRoll() {
-			return Random.NormalIntRange( 2, 6 );
-		}
-		
-		@Override
-		public int attackSkill( Char target ) {
-			return 12;
-		}
-		
-		@Override
-		public int dr() {
-			return 2;
-		}
-		
-		@Override
-		public int defenseProc( Char enemy, int damage ) {
-			
-			GameScene.add( Blob.seed( pos, 20, ParalyticGas.class ) );
-			
-			return super.defenseProc(enemy, damage);
-		}
-		
-		@Override
-		public void die( Object cause ) {
-			super.die( cause );
-			
-			Dungeon.level.drop( new RatSkull(), pos ).sprite.drop();
-		}
-		
-		@Override
-		public String description() {
-			return
-				"This marsupial rat is much larger, than a regular one. It is surrounded by a foul cloud.";
-		}
-		
-		private static final HashSet<Class<?>> IMMUNITIES = new HashSet<Class<?>>();
-		static {
-			IMMUNITIES.add( Paralysis.class );
-		}
-		
-		@Override
-		public HashSet<Class<?>> immunities() {
-			return IMMUNITIES;
-		}
-	}
+    public static class FetidRat extends Mob {
+
+        {
+            name = "fetid rat";
+            spriteClass = FetidRatSprite.class;
+
+            HP = HT = 15;
+            defenseSkill = 5;
+
+            EXP = 0;
+            maxLvl = 5;
+
+            state = WANDERING;
+        }
+
+        @Override
+        public int damageRoll() {
+            return Random.NormalIntRange( 2, 6 );
+        }
+
+        @Override
+        public int attackSkill( Char target ) {
+            return 12;
+        }
+
+        @Override
+        public int dr() {
+            return 2;
+        }
+
+        @Override
+        public int defenseProc( Char enemy, int damage ) {
+
+            GameScene.add( Blob.seed( pos, 20, ParalyticGas.class ) );
+
+            return super.defenseProc(enemy, damage);
+        }
+
+        @Override
+        public void die( Object cause ) {
+            super.die( cause );
+
+            Dungeon.level.drop( new RatSkull(), pos ).sprite.drop();
+        }
+
+        @Override
+        public String description() {
+            return
+                    "This marsupial rat is much larger, than a regular one. It is surrounded by a foul cloud.";
+        }
+
+        private static final HashSet<Class<?>> IMMUNITIES = new HashSet<Class<?>>();
+        static {
+            IMMUNITIES.add( Paralysis.class );
+        }
+
+        @Override
+        public HashSet<Class<?>> immunities() {
+            return IMMUNITIES;
+        }
+    }
+
+    public static class Casda extends Mob {
+
+        {
+            name = "Cas'da the Defiler";
+            spriteClass = CasdaSprite.class;
+
+            HP = HT = 20;
+            defenseSkill = 5;
+
+            EXP = 0;
+            maxLvl = 5;
+
+            state = WANDERING;
+        }
+
+        @Override
+        public int damageRoll() {
+            return Random.NormalIntRange( 2, 4 );
+        }
+
+        @Override
+        public int attackSkill( Char target ) {
+            return 12;
+        }
+
+        @Override
+        public int dr() {
+            return 2;
+        }
+
+        @Override
+        public int defenseProc( Char enemy, int damage ) {
+
+            if ( Random.Int( 4 ) == 0 && enemy == Dungeon.hero ) {
+                GLog.n("Cas'da waves his hand, and you are suddenly lifted into the air by an unseen force, suspended and powerless.");
+                Buff.affect( enemy, Levitation.class, 1f );
+                Buff.affect( enemy, Paralysis.class, 1f );
+                return 0;
+            }
+            if ( Random.Int( 5 ) == 0)
+                yell("Judge me by my size, do you?");
+            return super.defenseProc(enemy, damage);
+        }
+
+        @Override
+        public int attackProc( Char enemy, int damage ) {
+            if (Random.Int( 2 ) == 0) {
+                Buff.affect( enemy, Bleeding.class ).set( damage );
+            }
+
+            return damage;
+        }
+
+        @Override
+        public void die( Object cause ) {
+            super.die( cause );
+
+            GLog.n( "A disembodied voice, that of Cas'da, thunders out: \"Made me more powerful than you can possibly imagine, you have!\"" );
+            Dungeon.level.drop( new Gold( Random.NormalIntRange( 40 , 70 ) ), pos ).sprite.drop();
+            Dungeon.level.drop( new BrokenRapier(), pos ).sprite.drop();
+        }
+
+        @Override
+        public String description() {
+            return "This mysterious warrior is known only as \"Cas'da\".";
+        }
+    }
 }

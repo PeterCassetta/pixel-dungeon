@@ -16,51 +16,38 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.petercassetta.pdrebalanced.actors.mobs;
+package com.petercassetta.pdrebalanced.items.quest;
 
-import com.petercassetta.pdrebalanced.actors.Char;
-import com.petercassetta.pdrebalanced.actors.mobs.npcs.Ghost;
-import com.petercassetta.pdrebalanced.sprites.RatSprite;
-import com.watabou.utils.Random;
+import com.petercassetta.pdrebalanced.items.Item;
+import com.petercassetta.pdrebalanced.sprites.ItemSpriteSheet;
 
-public class Rat extends Mob {
-
+public class BrokenRapier extends Item {
+	
 	{
-		name = "marsupial rat";
-		spriteClass = RatSprite.class;
+		name = "broken rapier";
+		image = ItemSpriteSheet.RAPIER;
 		
-		HP = HT = 8;
-		defenseSkill = 3;
-		
-		maxLvl = 5;
+		unique = true;
 	}
 	
 	@Override
-	public int damageRoll() {
-		return Random.NormalIntRange( 1, 5 );
+	public boolean isUpgradable() {
+		return false;
 	}
 	
 	@Override
-	public int attackSkill( Char target ) {
-		return 8;
+	public boolean isIdentified() {
+		return true;
 	}
 	
 	@Override
-	public int dr() {
-		return 1;
-	}
-	
-	@Override
-	public void die( Object cause ) {
-		Ghost.Quest.process( pos );
-		
-		super.die( cause );
-	}
-	
-	@Override
-	public String description() {
+	public String info() {
 		return
-			"Marsupial rats are aggressive, but rather weak denizens " +
-			"of the sewers. They are typically dangerous only in large numbers.";
+			"It is but a fragment of what may have once been an extraordinary sword.";
+	}
+	
+	@Override
+	public int price() {
+		return 100;
 	}
 }

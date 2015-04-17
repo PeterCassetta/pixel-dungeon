@@ -22,8 +22,10 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashSet;
 
+import com.petercassetta.pdrebalanced.actors.mobs.npcs.Ghost;
 import com.watabou.noosa.Camera;
 import com.watabou.noosa.Game;
+import com.watabou.noosa.audio.Music;
 import com.watabou.noosa.audio.Sample;
 import com.petercassetta.pdrebalanced.Assets;
 import com.petercassetta.pdrebalanced.Badges;
@@ -165,7 +167,8 @@ public class Hero extends Char {
 	public int lvl = 1;
 	public int exp = 0;
 	
-	private ArrayList<Mob> visibleEnemies; 
+	private ArrayList<Mob> visibleEnemies;
+    private boolean casdaVisible = false;
 	
 	public Hero() {
 		super();
@@ -878,8 +881,10 @@ public class Hero extends Char {
 	
 	private void checkVisibleMobs() {
 		ArrayList<Mob> visible = new ArrayList<Mob>();
-		
-		boolean newMob = false;
+
+        boolean newMob = false;
+        boolean casdaWasVisible = casdaVisible;
+        casdaVisible = false;
 		
 		for (Mob m : Dungeon.level.mobs) {
 			if (Level.fieldOfView[ m.pos ] && m.hostile) {
@@ -887,14 +892,21 @@ public class Hero extends Char {
 				if (!visibleEnemies.contains( m )) {
 					newMob = true;
 				}
-			}
+                if ( m instanceof Ghost.Casda ) casdaVisible = true;
+            }
 		}
-		
+
 		if (newMob) {
 			interrupt();
 			restoreHealth = false;
 		}
-		
+
+        if (casdaWasVisible && !casdaVisible) {
+            Music.INSTANCE.play(Assets.TUNE, true);
+        } else if (!casdaWasVisible && casdaVisible) {
+            Music.INSTANCE.play(Assets.TUNE_CASDA, true);
+        }
+
 		visibleEnemies = visible;
 	}
 	

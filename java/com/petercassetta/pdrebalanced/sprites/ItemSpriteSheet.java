@@ -132,8 +132,9 @@ public class ItemSpriteSheet {
 	public static final int SEED_ROTBERRY	= 95;
 	
 	// Quest items
-	public static final int ROSE	= 100;
-	public static final int PICKAXE	= 101;
+    public static final int RAPIER	= 80;
+    public static final int ROSE	= 100;
+    public static final int PICKAXE	= 101;
 	public static final int ORE		= 102;
 	public static final int SKULL	= 103;
 	public static final int DUST	= 121;
@@ -167,7 +168,6 @@ public class ItemSpriteSheet {
 	// Misc
 	public static final int ANKH	= 1;
 	public static final int GOLD	= 14;
-	public static final int STYLUS	= 80;
 	public static final int DEWDROP	= 81;
 	public static final int MASTERY	= 82;
 	public static final int TORCH	= 84;
