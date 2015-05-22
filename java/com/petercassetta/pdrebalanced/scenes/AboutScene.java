@@ -47,7 +47,7 @@ public class AboutScene extends PixelScene {
         " used under the GPLv3. \n\n" +
         "Official website:";
 
-    private static final String LNK = "pixeldungeon.petercassetta.ru";
+    private static final String LNK = "pixeldungeon.watabou.ru";
 
 	@Override
 	public void create() {
